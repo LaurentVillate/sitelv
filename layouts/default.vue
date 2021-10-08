@@ -1,11 +1,47 @@
 <template>
   <v-app>
     <!--en-tête de l'application-->
-    <v-card tile flat color="blue lighten-5" height="230" class="d-flex justify-center justify-sm-start"> 
+    <v-card tile flat color="blue lighten-5" height="230" class="d-flex justify-center"> 
       <v-card tile flat class="logo d-flex justify-center px-16 py-12" link to="/" nuxt>   
         <img :height='size' :width='size' src='/logo_laurent.png' />
-      </v-card>
+      </v-card>  
     </v-card>
+    <v-toolbar dense flat color="blue lighten-5" class="pl-4 pl-sm-16">
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon>  
+    </v-toolbar>
+    <v-navigation-drawer v-model="drawer" color="blue lighten-5" absolute temporary>
+      <v-list flat dense class="py-12 pl-8">
+        <v-list-item-group v-model="group">
+          <v-list-item to="/">
+            <v-list-item-icon>
+               <v-icon color="orange darken-3">mdi-home</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="footer">ACCEUIL</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item to="/bio">
+            <v-list-item-icon>
+              <v-icon color="orange darken-3">mdi-account</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="footer">À PROPOS</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item to="/">
+            <v-list-item-icon>
+              <v-icon color="orange darken-3">mdi-cards</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="footer">SÉRIES</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item to="/contact">
+              <v-list-item-icon>
+            <v-icon color="orange darken-3">mdi-email</v-icon>
+              </v-list-item-icon>
+            <v-list-item-title class="footer">CONTACT</v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
 
     <!--Contenu des pages-->
     <v-main>
@@ -19,28 +55,28 @@
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
             <NuxtLink class="footer" to="/">
-              <v-icon color="#EF6C00">mdi-home</v-icon>
+              <v-icon color="orange darken-3">mdi-home</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
             <NuxtLink class="footer" to="/bio">
-              <v-icon color="#EF6C00">mdi-account</v-icon>
+              <v-icon color="orange darken-3">mdi-account</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
           <v-card-text class="footer d-flex justify-center">      
             <NuxtLink class="footer" to="/contact">
-              <v-icon color="#EF6C00">mdi-email</v-icon>
+              <v-icon color="orange darken-3">mdi-email</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
           <v-card-text class="footer d-flex justify-center">      
             <NuxtLink class="footer" to="/credits">
-              <v-icon color="#EF6C00">mdi-scale-balance</v-icon>
+              <v-icon color="orange darken-3">mdi-scale-balance</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
@@ -56,6 +92,15 @@
 
 <script>
 export default {
+    data: () => ({
+      drawer: false,
+      group: null,
+    }),
+    watch: {
+      group () {
+        this.drawer = false
+      },
+    },
     computed: {
       size () {
         switch (this.$vuetify.breakpoint.name) {
@@ -69,7 +114,6 @@ export default {
     },
   }
 </script>
-
 
 <style scoped>
 

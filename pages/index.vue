@@ -23,7 +23,7 @@ export default {
     data () {
       return{
           galeries: [
-            {image: "/galerie/hue_Autoportrait.png", lien:"/details/autoportrait2"},
+            {image: "/galerie/hue_Autoportrait.png", lien:"/details/autoportrait"},
             {image: "/galerie/tokyo_Meiji.png", lien:"/details/tokyo"},
             {image: "/galerie/phnompenh_Stade.png", lien:"/details/phnompenh1"},
             {image: "/galerie/saigon_Moto.png", lien:"/details/saigon"},

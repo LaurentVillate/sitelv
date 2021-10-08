@@ -1,4 +1,6 @@
 <template>
+    <div>
+        <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/ujiie_Parking.png' />" 
         titre="Ujiie, parking"
@@ -8,14 +10,17 @@
         commentaire="Parking du magasin Uniclo à Ujiie, Japon."
         >
         </Imagedetails>
+    </div>
 </template>
 
 <script>
 import Imagedetails from '@/components/Imagdetails'
+import Retourindex from '@/components/Retourindex'
 
 export default{
     components: {
         Imagedetails,
+        Retourindex,
     },
     data(){
         return{

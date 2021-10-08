@@ -1,4 +1,6 @@
 <template>
+    <div>
+        <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/kampot_Linge.png' />" 
         titre="linge au vent"
@@ -8,14 +10,17 @@
         commentaire="Kampot, Cambodge."
         >
         </Imagedetails>
+    </div>    
 </template>
 
 <script>
 import Imagedetails from '@/components/Imagdetails'
+import Retourindex from '@/components/Retourindex'
 
 export default{
     components: {
         Imagedetails,
+        Retourindex
     },
     data(){
         return{

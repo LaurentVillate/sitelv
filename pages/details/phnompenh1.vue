@@ -1,6 +1,8 @@
 <template>
     <div>
+        <Retourindex></Retourindex>
         <Imagedetails
+        intro="Tirées de la série &quot;36 vues de Phnom Penh&quot;, ces images mettent en avant l'architecture de Vann Molyvann (1926-2017)."
         image="<img src='/galerie/phnompenh_Stade.png' />" 
         titre="Football devant le palais des Sports"
         formatpapier="29,7 x 42 cm"
@@ -15,31 +17,39 @@
         formatpapier="29,7 x 42 cm"
         formatimage="20 x 35 cm"
         date="2014"
-        commentaire="Phnom Penh."
+        commentaire="Phnom Penh, le monument de l'Indépendance vu du carrefour entre la rue Padteur (rue 51) et les boulevard Sihanouk et Suramarit."
         >
         </Imagedetails>
-        <v-card tile flat color="blue lighten-5">
-            <v-row>
-                <v-col cols="12" md="6">
-                </v-col>
-                <v-col cols="12" md="6">
-                <v-card tile flat color="blue lighten-5" class="pb-12 pr-sm-4">
-                    <v-card-text class="detailtexte text-caption text-sm-body-2">
-                    Ces images, tirées de la série "36 vues de Phnom Penh", rendent hommage à l'architecture de Vann Molyvann (1926-2017).
-                    </v-card-text>
-                </v-card>
-            </v-col>
-        </v-row> 
-        </v-card>      
+        <Imagedetails
+        image="<img src='/galerie/phnompenh_urpp.png' />" 
+        titre="Le bâtiment D de l'URPP"
+        formatpapier="29,7 x 42 cm"
+        formatimage="20 x 35 cm"
+        date="2014"
+        commentaire="Université royale de Phnom Penh, boulevard de la fédération de Russie."
+        collection="(Collection privée)"
+        >
+        </Imagedetails>
+        <Imagedetails
+        image="<img src='/galerie/phnompenh_Aeroport.png' />" 
+        titre="Le dais d'honneur de l'aéroport"
+        formatpapier="29,7 x 42 cm"
+        formatimage="20 x 35 cm"
+        date="2014"
+        commentaire="Aéroport de Pochentong, au sud de Phnom Penh."
+        >
+        </Imagedetails>     
     </div>
 </template>
 
 <script>
 import Imagedetails from '@/components/Imagedetails'
+import Retourindex from '@/components/Retourindex'
 
 export default{
     components: {
         Imagedetails,
+        Retourindex,
     },
     data(){
         return{
