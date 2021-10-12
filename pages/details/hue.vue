@@ -2,21 +2,21 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        intro="Images extraites de la serie &quot;Fumeurs de Hué&quot;."
+        :intro="$t('details.hue.a.intro')"
         image="<img src='/galerie/hue_Arbres.png' />" 
-        titre="Entre deux arbres"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
-        commentaire="Hué, Vietnam."
+        :titre="$t('details.hue.a.title')"
+        :formatpapier="$t('details.hue.a.papersize')"
+        :formatimage="$t('details.hue.a.imagesize')"
+        :date="$t('details.hue.a.date')"
+        :commentaire="$t('details.hue.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/hue_Cloture.png' />" 
-        titre="La clotûre brisée"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
+        :titre="$t('details.hue.b.title')"
+        :formatpapier="$t('details.hue.b.papersize')"
+        :formatimage="$t('details.hue.b.imagesize')"
+        :date="$t('details.hue.b.date')"
         commentaire=""
         >
         </Imagedetails>

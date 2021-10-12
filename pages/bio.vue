@@ -12,9 +12,10 @@
         <v-row class="d-flex justify-center">
             <v-col cols="12" md="6">
                 <v-card-text class="texteFrEn text-caption text-sm-body-2 ml-md-12 px-md-16">
-                    <p>Laurent Villate peint à la gouache sur papier. Il créé des vues urbaines.</p>
+                    <div v-html="$t('bio')"></div>
+                    <!--<p>Laurent Villate peint à la gouache sur papier. Il créé des vues urbaines.</p>
                     <p>Il a vécu plusieurs années au Cambodge, où il a réalisé la série "36 vues de Phnom Penh".</p>
-                    <p>Après avoir exploré des villes asiatiques, il s’intéresse aux univers urbains européens. Privilégiant les couleurs vives, influencé par la “ligne claire”, il met l’accent sur des contrastes d’atmosphère et d’architecture.</p>
+                    <p>Après avoir exploré des villes asiatiques, il s’intéresse aux univers urbains européens. Privilégiant les couleurs vives, influencé par la “ligne claire”, il met l’accent sur des contrastes d’atmosphère et d’architecture.</p>-->
                 </v-card-text>
             </v-col>
             <v-col cols="12" md="6">
@@ -28,6 +29,10 @@
 
 <script>
 export default {
+    data(){
+        return{
+        }
+    },
     computed: {
       size () {
         switch (this.$vuetify.breakpoint.name) {

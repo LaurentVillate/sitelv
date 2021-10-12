@@ -2,31 +2,31 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        intro="Images extraites de la série &quot;Sept vues de Hong Kong&quot;"
+        :intro="$t('details.hongkong.a.intro')"
         image="<img src='/galerie/hongkong_Pont.png' />" 
-        titre="Le petit pont rouge"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
-        commentaire="Hong Kong, Nan Liang Garden."
-        collection="(Collection privée)"
+        :titre="$t('details.hongkong.a.title')"
+        :formatpapier="$t('details.hongkong.a.papersize')"
+        :formatimage="$t('details.hongkong.a.imagesize')"
+        :date="$t('details.hongkong.a.date')"
+        :commentaire="$t('details.hongkong.a.comment')"
+        :collection="$t('details.hongkong.a.collection')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/hongkong_Fuite.png' />" 
-        titre="Fuite"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
+        :titre="$t('details.hongkong.b.title')"
+        :formatpapier="$t('details.hongkong.b.papersize')"
+        :formatimage="$t('details.hongkong.b.imagesize')"
+        :date="$t('details.hongkong.b.date')"
         commentaire=""
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/hongkong_Apple.png' />" 
-        titre="Apple Store à Central"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
+        :titre="$t('details.hongkong.c.title')"
+        :formatpapier="$t('details.hongkong.c.papersize')"
+        :formatimage="$t('details.hongkong.c.imagesize')"
+        :date="$t('details.hongkong.c.date')"
         commentaire=""
         >
         </Imagedetails>

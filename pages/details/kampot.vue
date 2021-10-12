@@ -3,11 +3,11 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/kampot_Linge.png' />" 
-        titre="linge au vent"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2015"
-        commentaire="Kampot, Cambodge."
+        :titre="$t('details.kampot.title')"
+        :formatpapier="$t('details.kampot.papersize')"
+        :formatimage="$t('details.kampot.imagesize')"
+        :date="$t('details.kampot.date')"
+        :commentaire="$t('details.kampot.comment')"
         >
         </Imagedetails>
     </div>    

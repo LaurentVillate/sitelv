@@ -2,41 +2,41 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        intro="Tirées de la série &quot;36 vues de Phnom Penh&quot;, ces images mettent en avant l'architecture de Vann Molyvann (1926-2017)."
+        :intro="$t('details.phnompenh1.a.intro')"
         image="<img src='/galerie/phnompenh_Stade.png' />" 
-        titre="Football devant le palais des Sports"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Phnom Penh, Stade olympique."
+        :titre="$t('details.phnompenh1.a.title')"
+        :formatpapier="$t('details.phnompenh1.a.papersize')"
+        :formatimage="$t('details.phnompenh1.a.imagesize')"
+        :date="$t('details.phnompenh1.a.date')"
+        :commentaire="$t('details.phnompenh1.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_Monument.png' />" 
-        titre="L'arbre du voyageur et le monument de l'indépendance"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Phnom Penh, le monument de l'Indépendance vu du carrefour entre la rue Padteur (rue 51) et les boulevard Sihanouk et Suramarit."
+        :titre="$t('details.phnompenh1.b.title')"
+        :formatpapier="$t('details.phnompenh1.b.papersize')"
+        :formatimage="$t('details.phnompenh1.b.imagesize')"
+        :date="$t('details.phnompenh1.b.date')"
+        :commentaire="$t('details.phnompenh1.b.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_urpp.png' />" 
-        titre="Le bâtiment D de l'URPP"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Université royale de Phnom Penh, boulevard de la fédération de Russie."
-        collection="(Collection privée)"
+        :titre="$t('details.phnompenh1.c.title')"
+        :formatpapier="$t('details.phnompenh1.c.papersize')"
+        :formatimage="$t('details.phnompenh1.c.imagesize')"
+        :date="$t('details.phnompenh1.c.date')"
+        :commentaire="$t('details.phnompenh1.c.comment')"
+        :collection="$t('details.phnompenh1.c.collection')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_Aeroport.png' />" 
-        titre="Le dais d'honneur de l'aéroport"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Aéroport de Pochentong, au sud de Phnom Penh."
+        :titre="$t('details.phnompenh1.d.title')"
+        :formatpapier="$t('details.phnompenh1.d.papersize')"
+        :formatimage="$t('details.phnompenh1.d.imagesize')"
+        :date="$t('details.phnompenh1.d.date')"
+        :commentaire="$t('details.phnompenh1.d.comment')"
         >
         </Imagedetails>     
     </div>

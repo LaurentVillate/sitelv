@@ -3,38 +3,38 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/hue_Autoportrait.png' />" 
-        titre="Autoportrait en pied"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
-        commentaire="Extrait de la série &quot;Fumeurs de Hué&quot;."
+        :titre="$t('details.autoportrait.a.title')"
+        :formatpapier="$t('details.autoportrait.a.papersize')"
+        :formatimage="$t('details.autoportrait.a.imagesize')"
+        :date="$t('details.autoportrait.a.date')"
+        :commentaire="$t('details.autoportrait.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_Autoportrait.png' />" 
-        titre="Autoportrait en pied"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Extrait de la série &quot;36 vues de Phnom Penh&quot;. Sur un trottoir de la rue Pasteur (rue 51) à Phnom Penh."
+        :titre="$t('details.autoportrait.b.title')"
+        :formatpapier="$t('details.autoportrait.b.papersize')"
+        :formatimage="$t('details.autoportrait.b.imagesize')"
+        :date="$t('details.autoportrait.b.date')"
+        :commentaire="$t('details.autoportrait.b.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/hongkong_Autoportrait.png' />" 
-        titre="Autoportrait en pied"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2016"
-        commentaire="Extrait de la série &quot;7 vues de Hong Kong&quot;."
+        :titre="$t('details.autoportrait.c.title')"
+        :formatpapier="$t('details.autoportrait.c.papersize')"
+        :formatimage="$t('details.autoportrait.c.imagesize')"
+        :date="$t('details.autoportrait.c.date')"
+        :commentaire="$t('details.autoportrait.c.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/paris_Autoportrait.png' />" 
-        titre="Été indien"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2018"
-        commentaire="Extrait de la série &quot;5 saisons à Paris&quot;."
+        :titre="$t('details.autoportrait.d.title')"
+        :formatpapier="$t('details.autoportrait.d.papersize')"
+        :formatimage="$t('details.autoportrait.c.imagesize')"
+        :date="$t('details.autoportrait.d.date')"
+        :commentaire="$t('details.autoportrait.d.comment')"
         >
         </Imagedetails>
     </div>

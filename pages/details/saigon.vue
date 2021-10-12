@@ -3,20 +3,20 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/saigon_Moto.png' />" 
-        titre="Moto, mur et drapeaux"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2017"
-        commentaire="Saigon Ho-Chi-Minh."
+        :titre="$t('details.saigon.a.title')"
+        :formatpapier="$t('details.saigon.a.papersize')"
+        :formatimage="$t('details.saigon.a.imagesize')"
+        :date="$t('details.saigon.a.date')"
+        :commentaire="$t('details.saigon.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/saigon_Marche.png' />" 
-        titre="Le marché Ben Thanh"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2018"
-        commentaire="Saigon Ho-Chi-Minh."
+        :titre="$t('details.saigon.b.title')"
+        :formatpapier="$t('details.saigon.b.papersize')"
+        :formatimage="$t('details.saigon.b.imagesize')"
+        :date="$t('details.saigon.b.date')"
+        commentaire=""
         >
         </Imagedetails>
     </div>

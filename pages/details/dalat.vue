@@ -3,11 +3,11 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/dalat_Lycee.png' />" 
-        titre="Le lycée Yersin au crépuscule"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2021"
-        commentaire="Dalat, Vietnam."
+        :titre="$t('details.dalat.title')"
+        :formatpapier="$t('details.dalat.papersize')"
+        :formatimage="$t('details.dalat.imagesize')"
+        :date="$t('details.dalat.date')"
+        :commentaire="$t('details.dalat.comment')"
         >
         </Imagedetails>
     </div>

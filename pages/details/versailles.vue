@@ -3,19 +3,19 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/versailles_Chateau.png' />" 
-        titre="Ronde de nuit au château de Versailles"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2021"
-        commentaire="Le chateau de Versailles vu depuis le parterre du Nord."
+        :titre="$t('details.versailles.a.title')"
+        :formatpapier="$t('details.versailles.a.papersize')"
+        :formatimage="$t('details.versailles.a.imagesize')"
+        :date="$t('details.versailles.a.date')"
+        :commentaire="$t('details.versailles.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/versailles_Chateaujour.png' />" 
-        titre="Fenêtre dans le salon de la Guerre"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2021"
+        :titre="$t('details.versailles.b.title')"
+        :formatpapier="$t('details.versailles.b.papersize')"
+        :formatimage="$t('details.versailles.b.imagesize')"
+        :date="$t('details.versailles.b.date')"
         commentaire=""
         >
         </Imagedetails>

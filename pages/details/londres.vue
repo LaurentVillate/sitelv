@@ -3,11 +3,11 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/londres_Lexham.png' />" 
-        titre="London nocturne 2"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2017"
-        commentaire="Londres, Lexham Mews."
+        :titre="$t('details.londres.title')"
+        :formatpapier="$t('details.londres.papersize')"
+        :formatimage="$t('details.londres.imagesize')"
+        :date="$t('details.londres.date')"
+        :commentaire="$t('details.londres.comment')"
         >
         </Imagedetails>
     </div>

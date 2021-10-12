@@ -3,28 +3,28 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/amsterdam_Gare.png' />" 
-        titre="Amsterdam Centraal, ciel jaune"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2021"
+        :titre="$t('details.amsterdam.a.title')"
+        :formatpapier="$t('details.amsterdam.a.papersize')"
+        :formatimage="$t('details.amsterdam.a.imagesize')"
+        :date="$t('details.amsterdam.a.date')"
         commentaire=""
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/amsterdam_Peniche.png' />" 
-        titre="La péniche multicolore"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2017"
+        :titre="$t('details.amsterdam.b.title')"
+        :formatpapier="$t('details.amsterdam.b.papersize')"
+        :formatimage="$t('details.amsterdam.b.imagesize')"
+        :date="$t('details.amsterdam.b.date')"
         commentaire="Amsterdam."
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/amsterdam_Pont.png' />" 
-        titre="Lijnbaansgracht, nuit"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2017"
+        :titre="$t('details.amsterdam.a.title')"
+        :formatpapier="$t('details.amsterdam.b.papersize')"
+        :formatimage="$t('details.amsterdam.a.imagesize')"
+        :date="$t('details.amsterdam.c.date')"
         commentaire="Amsterdam."
         >
         </Imagedetails>

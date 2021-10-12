@@ -3,11 +3,11 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/siemreap_palais.png' />" 
-        titre="La résidence du roi à Siem Reap"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2015"
-        commentaire=""
+        :titre="$t('details.siemreap.title')"
+        :formatpapier="$t('details.siemreap.papersize')"
+        :formatimage="$t('details.siemreap.imagesize')"
+        :date="$t('details.siemreap.date')"
+        :commentaire="$t('details.siemreap.comment')"
         >
         </Imagedetails>
     </div>

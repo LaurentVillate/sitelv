@@ -3,10 +3,10 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/lehavre_Mairie.png' />" 
-        titre="L'hôtel de Ville du Havre la nuit"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2020"
+        :titre="$t('details.lehavre.title')"
+        :formatpapier="$t('details.lehavre.papersize')"
+        :formatimage="$t('details.lehavre.imagesize')"
+        :date="$t('details.lehavre.date')"
         commentaire=""
         >
         </Imagedetails>

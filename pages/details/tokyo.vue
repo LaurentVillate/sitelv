@@ -3,12 +3,12 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/tokyo_Meiji.png' />" 
-        titre="Le temple de Meiji"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2017"
-        commentaire="Tokyo."
-        collection="(Collection privée)"
+        :titre="$t('details.tokyo.title')"
+        :formatpapier="$t('details.tokyo.papersize')"
+        :formatimage="$t('details.tokyo.imagesize')"
+        :date="$t('details.tokyo.date')"
+        :commentaire="$t('details.tokyo.comment')"
+        :collection="$t('details.tokyo.collection')"
         >
         </Imagedetails>
     </div>

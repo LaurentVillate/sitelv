@@ -3,11 +3,11 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/paris_PontMarie.png' />" 
-        titre="Regard sur le pont Marie"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2018"
-        commentaire="Paris, le pont Marie vu du quai des Célestins, face à l'île Saint-Louis."
+        :titre="$t('details.paris.title')"
+        :formatpapier="$t('details.paris.papersize')"
+        :formatimage="$t('details.paris.imagesize')"
+        :date="$t('details.paris.date')"
+        :commentaire="$t('details.paris.comment')"
         >
         </Imagedetails>
     </div>

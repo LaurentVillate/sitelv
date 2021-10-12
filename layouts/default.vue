@@ -1,12 +1,12 @@
 <template>
   <v-app>
     <!--en-tête de l'application-->
-    <v-card tile flat color="blue lighten-5" height="230" class="d-flex justify-center"> 
+    <v-card tile flat color="blue lighten-5" height="220" class="d-flex justify-center"> 
       <v-card tile flat class="logo d-flex justify-center px-16 py-12" link to="/" nuxt>   
         <img :height='size' :width='size' src='/logo_laurent.png' />
       </v-card>  
     </v-card>
-    <v-toolbar dense flat color="blue lighten-5" class="pl-4 pl-sm-16">
+    <v-toolbar height="72" flat color="blue lighten-5" class="pl-4 pl-sm-16">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon>  
     </v-toolbar>
     <v-navigation-drawer v-model="drawer" color="blue lighten-5" absolute temporary>
@@ -16,28 +16,28 @@
             <v-list-item-icon>
                <v-icon color="orange darken-3">mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer">ACCEUIL</v-list-item-title>
+            <v-list-item-title class="footer text-uppercase">{{$t("home")}}</v-list-item-title>
           </v-list-item>
 
           <v-list-item to="/bio">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer">À PROPOS</v-list-item-title>
+            <v-list-item-title class="footer text-uppercase">{{$t("about")}}</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/">
+          <v-list-item to="/series">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-cards</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer">SÉRIES</v-list-item-title>
+            <v-list-item-title class="footer text-uppercase">{{$t("series")}}</v-list-item-title>
           </v-list-item>
 
           <v-list-item to="/contact">
               <v-list-item-icon>
             <v-icon color="orange darken-3">mdi-email</v-icon>
               </v-list-item-icon>
-            <v-list-item-title class="footer">CONTACT</v-list-item-title>
+            <v-list-item-title class="footer text-uppercase">{{$t("contact")}}</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>

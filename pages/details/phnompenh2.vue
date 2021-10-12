@@ -2,43 +2,43 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        intro="Ces images sont tirées de la série &quot;36 vues de Phnom Penh&quot;."
+        :intro="$t('details.phnompenh2.a.intro')"
         image="<img src='/galerie/phnompenh_Marche.png' />" 
-        titre="Les parasols du Marché central"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Phnom Penh."
+        :titre="$t('details.phnompenh2.a.title')"
+        :formatpapier="$t('details.phnompenh2.a.papersize')"
+        :formatimage="$t('details.phnompenh2.a.imagesize')"
+        :date="$t('details.phnompenh2.a.date')"
+        commentaire=""
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_Hallurpp.png' />" 
-        titre="Les lumières dans l'auditorium de l'URPP"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2015"
-        commentaire="Université royale de Phnom Penh, boulevard de la Confédération de Russie."
-        collection="(Collection privée)"
+        :titre="$t('details.phnompenh2.b.title')"
+        :formatpapier="$t('details.phnompenh2.b.papersize')"
+        :formatimage="$t('details.phnompenh2.b.imagesize')"
+        :date="$t('details.phnompenh2.b.date')"
+        :commentaire="$t('details.phnompenh2.b.comment')"
+        :collection="$t('details.phnompenh2.b.collection')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_Whitebuilding.png' />" 
-        titre="Inondation devant le 'White Building"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2014"
-        commentaire="Boulevard Sothearos, vu de la rue 294."
-        collection="(Collection privée)"
+        :titre="$t('details.phnompenh2.c.title')"
+        :formatpapier="$t('details.phnompenh2.c.papersize')"
+        :formatimage="$t('details.phnompenh2.c.imagesize')"
+        :date="$t('details.phnompenh2.c.date')"
+        :commentaire="$t('details.phnompenh2.c.comment')"
+        :collection="$t('details.phnompenh2.c.collection')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/phnompenh_Musee.png' />" 
-        titre="Le jardin du Musée national"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2015"
+        :titre="$t('details.phnompenh2.d.title')"
+        :formatpapier="$t('details.phnompenh2.d.papersize')"
+        :formatimage="$t('details.phnompenh2.d.imagesize')"
+        :date="$t('details.phnompenh2.d.date')"
         commentaire=""
-        collection="(Collection privée)"
+        :collection="$t('details.phnompenh2.d.collection')"
         >
         </Imagedetails>
     </div>

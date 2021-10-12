@@ -3,19 +3,19 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/angkor_Bayon.png' />" 
-        titre="La nuit au Bayon"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2015"
-        commentaire="Angkor."
+        :titre="$t('details.angkor.a.title')"
+        :formatpapier="$t('details.angkor.a.papersize')"
+        :formatimage="$t('details.angkor.a.imagesize')"
+        :date="$t('details.angkor.a.date')"
+        :commentaire="$t('details.angkor.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/angkor_Bayonjour.png' />" 
-        titre="Le Bayon et l'enfant"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2015"
+        :titre="$t('details.angkor.b.title')"
+        :formatpapier="$t('details.angkor.b.papersize')"
+        :formatimage="$t('details.angkor.b.imagesize')"
+        :date="$t('details.angkor.b.date')"
         >
         </Imagedetails>
     </div>

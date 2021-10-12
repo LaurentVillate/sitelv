@@ -3,19 +3,19 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/battambang_Airport.png' />" 
-        titre="La tour de contrôle de l'aéroport de Battambang"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2019"
-        commentaire="Battambang, Cambodge."
+        :titre="$t('details.battambang.a.title')"
+        :formatpapier="$t('details.battambang.a.papersize')"
+        :formatimage="$t('details.battambang.a.imagesize')"
+        :date="$t('details.battambang.a.date')"
+        :commentaire="$t('details.battambang.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/battambang_Marche.png' />" 
-        titre="Le marché central de Battambang"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2019"
+        :titre="$t('details.battambang.b.title')"
+        :formatpapier="$t('details.battambang.b.papersize')"
+        :formatimage="$t('details.battambang.b.imagesize')"
+        :date="$t('details.battambang.b.papersize')"
         commentaire=""
         >
         </Imagedetails>

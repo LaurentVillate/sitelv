@@ -9,16 +9,7 @@
                 </v-card-text>
             </v-col>
         </v-row>
-        <v-card-text class="texteFrEn text-caption text-sm-body-2">
-            <p>Textes et images : Laurent Villate</p>
-            <br>
-            <p>Conception et réalisation : Image Rare, éditeur digital
-            <p>Hébergement : 1&1 Ionos</p>
-            <br>
-            <p>Laurent Villate est membre de la Maison des artistes</p>
-            <p>SIRET: 814 475 463 00026</p>
-            <br>
-            <p>Les contenus de ce site, notamment les images et les textes, sont soumis au droit d'auteur.</p>
+        <v-card-text v-html="$t('credits')" class="texteFrEn text-caption text-sm-body-2">
         </v-card-text>
     </v-card>   
 </template>

@@ -3,29 +3,29 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/amiens_Cottenchy.png' />" 
-        titre="La rue de Cottenchy au crépuscule"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2019"
-        commentaire="Amiens, haut de la rue de Cottenchy, vue du boulevard de Bapaume."
+        :titre="$t('details.amiens.a.title')"
+        :formatpapier="$t('details.amiens.a.papersize')"
+        :formatimage="$t('details.amiens.a.imagesize')"
+        :date="$t('details.amiens.a.date')"
+        :commentaire="$t('details.amiens.a.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/amiens_Bapaume.png' />" 
-        titre="Vue du boulevard Bapaume"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2019"
-        commentaire="Amiens."
+        :titre="$t('details.amiens.b.title')"
+        :formatpapier="$t('details.amiens.b.papersize')"
+        :formatimage="$t('details.amiens.b.imagesize')"
+        :date="$t('details.amiens.b.date')"
+        :commentaire="$t('details.amiens.b.comment')"
         >
         </Imagedetails>
         <Imagedetails
         image="<img src='/galerie/amiens_Neige.png' />" 
-        titre="La place du Don sous la neige"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2019"
-        commentaire="Amiens."
+        :titre="$t('details.amiens.c.title')"
+        :formatpapier="$t('details.amiens.c.papersize')"
+        :formatimage="$t('details.amiens.c.imagesize')"
+        :date="$t('details.amiens.c.date')"
+        :commentaire="$t('details.amiens.c.comment')"
         >
         </Imagedetails>
     </div>

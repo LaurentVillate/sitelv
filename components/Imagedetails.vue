@@ -23,9 +23,9 @@
                 <v-divider color="#BBDEFB"></v-divider>
                 <v-card-text class="detailtexte text-caption text-sm-body-2">
                     <br><br>                   
-                    <p>Gouache et encre sur papier</p>
-                    <p>Format papier : {{formatpapier}}</p>
-                    <p>Format image : {{formatimage}}</p>
+                    <p>{{$t("details.type")}}</p>
+                    <p>{{$t("details.size1")}} {{formatpapier}}</p>
+                    <p>{{$t("details.size2")}}{{formatimage}}</p>
                     <p>{{date}}</p>
                     <br>
                     <p>{{commentaire}}</p>

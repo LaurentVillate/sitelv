@@ -3,11 +3,11 @@
         <Retourindex></Retourindex>
         <Imagedetails
         image="<img src='/galerie/ujiie_Parking.png' />" 
-        titre="Ujiie, parking"
-        formatpapier="29,7 x 42 cm"
-        formatimage="20 x 35 cm"
-        date="2018"
-        commentaire="Parking du magasin Uniclo à Ujiie, Japon."
+        :titre="$t('details.ujiie.title')"
+        :formatpapier="$t('details.ujiie.papersize')"
+        :formatimage="$t('details.ujiie.imagesize')"
+        :date="$t('details.ujiie.date')"
+        :commentaire="$t('details.ujiie.comment')"
         >
         </Imagedetails>
     </div>
