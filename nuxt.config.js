@@ -53,10 +53,12 @@ export default {
           {
             code: 'en', 
             file: 'en-EN.js',
+            name: 'EN'
           },
           {
             code: 'fr',
             file: 'fr-FR.js',
+            name: 'FR'
           },
             ],
         lazy: true,

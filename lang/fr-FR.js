@@ -9,7 +9,6 @@ export default{
         type:"Gouache et encre sur papier",
         size1:"Format papier : ",
         size2:"Format image : ",
-        collection:"Collection privée",
         amiens:{
             a:{
                 intro:"",
@@ -22,7 +21,7 @@ export default{
             },
             b:{
                 intro:"",
-                title:"Vue du boulevard Bapaume",
+                title:"Vue du boulevard de Bapaume",
                 papersize:"29,7 x 42 cm",
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
@@ -113,7 +112,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 x 31,5 cm",
                 date:"2016",
-                comment:"Extrait de la série \"7 vues de Hong Kong\".",
+                comment:"Extrait de la série \"Sept vues de Hong Kong\".",
                 collection:""
             },
             d:{
@@ -122,14 +121,14 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"19,7 x 37,8 cm",
                 date:"2018",
-                comment:"Extrait de la série \"5 saisons à Paris\".",
+                comment:"Extrait de la série \"Cinq saisons à Paris\".",
                 collection:""
             },
         },
         battambang:{
             a:{
                 intro:"",
-                title:"La tour de contrôle de l'aéroport de Battambang",
+                title:"L'aéroport de Battambang",
                 papersize:"29,7 x 42 cm",
                 imagesize:"25 x 37,5 cm",
                 date:"2019",
@@ -138,7 +137,7 @@ export default{
             },
             b:{
                 intro:"",
-                title:"Le marché central de Battambang",
+                title:"Le marché de Battambang (Psar nat)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"21,5 x 31,8 cm",
                 date:"2019",
@@ -274,7 +273,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 31,5 cm",
                 date:"2019",
-                comment:"Phnom Penh.",
+                comment:"Aéroport de Pochentong.",
                  collection:""
             },
         },
@@ -366,7 +365,7 @@ export default{
         versailles:{
             a:{
                 intro:"",
-                title:"Ronde de nuit au château de Versailles",
+                title:"Visite nocturne dans les Grands Appartements ",
                 papersize:"29,7 x 42 cm",
                 imagesize:"25,5 x 34 cm",
                 date:"2021",
@@ -375,7 +374,7 @@ export default{
             },
             b:{
                 intro:"",
-                title:"Fenêtre dans le salon de la Guerre",
+                title:"Fenêtre ouvert dans le salon de la Guerre",
                 papersize:"29,7 x 42 cm",
                 imagesize:"25,5 x 34 cm",
                 date:"2021",

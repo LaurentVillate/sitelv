@@ -1,5 +1,15 @@
 <template>
   <v-app>
+    <v-system-bar color="blue lighten-5" class="d-flex justify-end pr-4 pr-sm-16">
+      <nuxt-link class="footer font-weight-bold" v-for="locale in availableLocales"
+      :key="locale.code"
+      :to="switchLocalePath(locale.code)">{{ locale.name }}
+      </nuxt-link>
+    </v-system-bar>
+    <!--<v-system-bar color="blue lighten-5" class="d-flex justify-end pr-4 pr-sm-16">
+      <nuxt-link :to="switchLocalePath('fr')" class="footer font-weight-bold">FR </nuxt-link>
+      <nuxt-link :to="switchLocalePath('en')" class="footer font-weight-bold">| EN</nuxt-link> 
+    </v-system-bar>-->
     <!--en-tête de l'application-->
     <v-card tile flat color="blue lighten-5" height="220" class="d-flex justify-center"> 
       <v-card tile flat class="logo d-flex justify-center px-16 py-12" link to="/" nuxt>   
@@ -7,7 +17,7 @@
       </v-card>  
     </v-card>
     <v-toolbar height="72" flat color="blue lighten-5" class="pl-4 pl-sm-16">
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon>  
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon> 
     </v-toolbar>
     <v-navigation-drawer v-model="drawer" color="blue lighten-5" absolute temporary>
       <v-list flat dense class="py-12 pl-8">
@@ -109,8 +119,11 @@ export default {
           case 'md': return 120
           case 'lg': return 160
           case 'xl': return 160
-        }
+        }       
       },
+      availableLocales () {
+    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+  }
     },
   }
 </script>
