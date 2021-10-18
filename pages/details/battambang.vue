@@ -2,7 +2,7 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/battambang_Airport.png' />" 
+        image="<img alt='L'aéroport de Battambang' src='/galerie/battambang_Airport.png' />" 
         :titre="$t('details.battambang.a.title')"
         :formatpapier="$t('details.battambang.a.papersize')"
         :formatimage="$t('details.battambang.a.imagesize')"
@@ -11,7 +11,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/battambang_Marche.png' />" 
+        image="<img alt='Le Marché central de Battambang' src='/galerie/battambang_Marche.png' />" 
         :titre="$t('details.battambang.b.title')"
         :formatpapier="$t('details.battambang.b.papersize')"
         :formatimage="$t('details.battambang.b.imagesize')"

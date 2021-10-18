@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'sitelv',
+    title: 'Séries d\'images urbaines par Laurent Villate',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Illustrations originales à la gouache. Atmosphère et architecture des villes d\'Europe et d\'Asie.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -53,17 +53,17 @@ export default {
           {
             code: 'en', 
             file: 'en-EN.js',
-            name: 'EN'
+            name: 'English'
           },
           {
             code: 'fr',
             file: 'fr-FR.js',
-            name: 'FR'
+            name: 'Français'
           },
             ],
         lazy: true,
-        langDir: "lang/", 
-      }
+        langDir: "lang/",
+      },      
     ]      
   ],
   // Build Configuration: https://go.nuxtjs.dev/config-build

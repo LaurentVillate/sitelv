@@ -21,7 +21,7 @@ export default{
             },
             b:{
                 intro:"",
-                title:"View from boulevard de Bapaume",
+                title:"View from the boulevard de Bapaume",
                 papersize:"29,7 x 42 cm",
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
@@ -146,7 +146,7 @@ export default{
             },
         },
         dalat:{
-            intro:"",
+            intro:"From the series \"Nights of Dalat\"",
             title:"Lycée Yersin at dusk",
             papersize:"42 x 29,7 cm",
             imagesize:"17,5 x 33,8 cm",
@@ -232,7 +232,7 @@ export default{
         },
         paris:{
             intro:"",
-            title:"Look on the pont Marie",
+            title:"Look at the pont Marie",
             papersize:"29,7 x 42 cm",
             imagesize:"19,5 x 37,8 cm",
             date:"2018",
@@ -241,7 +241,7 @@ export default{
         },
         phnompenh1:{
             a:{
-                intro:"From the series \"36 views of Phnom Penh\";, these images highlight the architecture of Vann Molyvann (1926-2017).",
+                intro:"From the series \"36 views of Phnom Penh\", these images highlight the architecture of Vann Molyvann (1926-2017).",
                 title:"Football in front of the Sports Palace",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 31,5 cm",
@@ -285,7 +285,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
                 comment:"",
-                 collection:""
+                collection:""
             },
             b:{
                 intro:"",
@@ -294,7 +294,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2015",
                 comment:"Royal University of Phnom Penh.",
-                 collection:"(Private collection)"
+                collection:"(Private collection)"
             },
             c:{
                 intro:"",
@@ -303,7 +303,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
                 comment:"",
-                 collection:"(Private collection)"
+                 ollection:"(Private collection)"
             },
             d:{
                 intro:"",
@@ -312,7 +312,16 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2015",
                 comment:"",
-                 collection:"(Private collection)"
+                collection:"(Private collection)"
+            },
+            e:{
+                intro:"",
+                title:"French colonial house Ang Duong boulevard",
+                papersize:"29,7 x 42 cm",
+                imagesize:"24,5 31,5 cm",
+                date:"2015",
+                comment:"",
+                collection:"(Private collection)"
             },
         },
         saigon:{
@@ -331,7 +340,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"27,5 x 39,5 cm",
                 date:"2018",
-                comment:"",
+                comment:"Saigon Ho-Chi-Minh.",
                 collection:""
             }
         },
@@ -370,7 +379,7 @@ export default{
                 imagesize:"25,5 x 34 cm",
                 date:"2021",
                 comment:"",
-                collection:""
+                collection:"Palace of Versailles"
             },
             b:{
                 intro:"",
@@ -379,7 +388,7 @@ export default{
                 imagesize:"25,5 x 34 cm",
                 date:"2021",
                 comment:"",
-                collection:""
+                collection:"Palace of Versailles"
             }
         },    
     },

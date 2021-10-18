@@ -11,12 +11,12 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/saigon_Marche.png' />" 
+        image="<img alt='Le marché Ben Thanh à Saigon' src='/galerie/saigon_Marche.png' />" 
         :titre="$t('details.saigon.b.title')"
         :formatpapier="$t('details.saigon.b.papersize')"
         :formatimage="$t('details.saigon.b.imagesize')"
         :date="$t('details.saigon.b.date')"
-        commentaire=""
+        :commentaire="$t('details.saigon.b.comment')"
         >
         </Imagedetails>
     </div>

@@ -3,7 +3,7 @@
         <Retourindex></Retourindex>
         <Imagedetails
         :intro="$t('details.hongkong.a.intro')"
-        image="<img src='/galerie/hongkong_Pont.png' />" 
+        image="<img alt='Hong Kong, Diamond Hill, Nan Liang Garden' src='/galerie/hongkong_Pont.png' />" 
         :titre="$t('details.hongkong.a.title')"
         :formatpapier="$t('details.hongkong.a.papersize')"
         :formatimage="$t('details.hongkong.a.imagesize')"
@@ -13,7 +13,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/hongkong_Fuite.png' />" 
+        image="<img alt='Hong Kong IFC Two building by night' src='/galerie/hongkong_Fuite.png' />" 
         :titre="$t('details.hongkong.b.title')"
         :formatpapier="$t('details.hongkong.b.papersize')"
         :formatimage="$t('details.hongkong.b.imagesize')"
@@ -22,7 +22,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/hongkong_Apple.png' />" 
+        image="<img alt='Hong Kong Apple Central' src='/galerie/hongkong_Apple.png' />" 
         :titre="$t('details.hongkong.c.title')"
         :formatpapier="$t('details.hongkong.c.papersize')"
         :formatimage="$t('details.hongkong.c.imagesize')"

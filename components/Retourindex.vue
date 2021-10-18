@@ -1,9 +1,9 @@
 <template>
-    <v-card flat tile color="blue lighten-5" class=" pl-4 pl-sm-16 pt-sm-12">
+    <v-card flat tile color="blue-grey darken-4" class=" pl-4 pl-sm-16 pt-sm-12">
         <v-row>
             <v-col cols="12">
                 <v-card-text>
-                    <NuxtLink class="footer" to="/">
+                    <NuxtLink class="footer" :to="localePath('/')">
                         <v-icon color="#EF6C00">mdi-arrow-left</v-icon>
                     </NuxtLink>
                 </v-card-text>

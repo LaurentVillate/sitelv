@@ -2,7 +2,7 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/siemreap_palais.png' />" 
+        image="<img alt='La résidence royale à Siem Reap' src='/galerie/siemreap_palais.png' />" 
         :titre="$t('details.siemreap.title')"
         :formatpapier="$t('details.siemreap.papersize')"
         :formatimage="$t('details.siemreap.imagesize')"

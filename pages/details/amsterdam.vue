@@ -2,7 +2,7 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/amsterdam_Gare.png' />" 
+        image="<img alt='La Gare centrale d'Amsterdam' src='/galerie/amsterdam_Gare.png' />" 
         :titre="$t('details.amsterdam.a.title')"
         :formatpapier="$t('details.amsterdam.a.papersize')"
         :formatimage="$t('details.amsterdam.a.imagesize')"
@@ -11,7 +11,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/amsterdam_Peniche.png' />" 
+        image="<img alt='Canal et immeubles à Amsterdam' src='/galerie/amsterdam_Peniche.png' />" 
         :titre="$t('details.amsterdam.b.title')"
         :formatpapier="$t('details.amsterdam.b.papersize')"
         :formatimage="$t('details.amsterdam.b.imagesize')"
@@ -20,10 +20,10 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/amsterdam_Pont.png' />" 
-        :titre="$t('details.amsterdam.a.title')"
-        :formatpapier="$t('details.amsterdam.b.papersize')"
-        :formatimage="$t('details.amsterdam.a.imagesize')"
+        image="<img alt='Amsterdam de nuit' src='/galerie/amsterdam_Pont.png' />" 
+        :titre="$t('details.amsterdam.c.title')"
+        :formatpapier="$t('details.amsterdam.c.papersize')"
+        :formatimage="$t('details.amsterdam.c.imagesize')"
         :date="$t('details.amsterdam.c.date')"
         commentaire="Amsterdam."
         >

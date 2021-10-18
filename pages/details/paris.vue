@@ -2,7 +2,7 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/paris_PontMarie.png' />" 
+        image="<img alt='Le pont Marie' src='/galerie/paris_PontMarie.png' />" 
         :titre="$t('details.paris.title')"
         :formatpapier="$t('details.paris.papersize')"
         :formatimage="$t('details.paris.imagesize')"

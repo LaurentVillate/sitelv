@@ -2,7 +2,7 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/lehavre_Mairie.png' />" 
+        image="<img alt='L'Hôtel de ville du Havre' src='/galerie/lehavre_Mairie.png' />" 
         :titre="$t('details.lehavre.title')"
         :formatpapier="$t('details.lehavre.papersize')"
         :formatimage="$t('details.lehavre.imagesize')"

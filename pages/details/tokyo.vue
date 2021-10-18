@@ -2,7 +2,7 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/tokyo_Meiji.png' />" 
+        image="<img alt='Le Temple de Meiji' src='/galerie/tokyo_Meiji.png' />" 
         :titre="$t('details.tokyo.title')"
         :formatpapier="$t('details.tokyo.papersize')"
         :formatimage="$t('details.tokyo.imagesize')"

@@ -69,12 +69,12 @@ export default{
         },
         angkor:{
             a:{
-                intro:"",
+                intro:"Vues d'Angkor",
                 title:"La nuit au Bayon",
                 papersize:"29,7 x 42 cm",
                 imagesize:"29,7 x 42 cm",
                 date:"2015",
-                comment:"Angkor",
+                comment:"",
                 collection:""
             },
             b:{
@@ -94,7 +94,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"20 x 27,5 cm",
                 date:"2016",
-                comment:"Extrait de la série \"Fumeurs de Hué\"",
+                comment:"Extrait de la série \"Fumeurs de Hué\".",
                 collection:""
             },
             b:{
@@ -146,7 +146,7 @@ export default{
             },
         },
         dalat:{
-            intro:"",
+            intro:"Extrait de la série \"Nuits de Dalat\"",
             title:"Le lycée Yersin au crépuscule",
             papersize:"42 x 29,7 cm",
             imagesize:"17,5 x 33,8 cm",
@@ -209,7 +209,7 @@ export default{
             papersize:"29,7 x 42 cm",
             imagesize:"27,5 x 27,5 cm",
             date:"2015",
-            comment:"Kampot, Cambodge",
+            comment:"Kampot, Cambodge.",
             collection:""
         },
         lehavre:{
@@ -241,7 +241,7 @@ export default{
         },
         phnompenh1:{
             a:{
-                intro:"Tirées de la série \"36 vues de Phnom Penh\";, ces images mettent en avant l'architecture de Vann Molyvann (1926-2017).",
+                intro:"Tirées de la série \"36 vues de Phnom Penh\", ces images mettent en avant l'architecture de Vann Molyvann (1926-2017).",
                 title:"Football devant le palais des Sports",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 31,5 cm",
@@ -294,7 +294,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2015",
                 comment:"Université royale de Phnom Penh, boulevard de la Confédération de Russie.",
-                 collection:"(Collection privée)"
+                collection:"(Collection privée)"
             },
             c:{
                 intro:"",
@@ -303,7 +303,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
                 comment:"Boulevard Sothearos, vu de la rue 294.",
-                 collection:"(Collection privée)"
+                collection:"(Collection privée)"
             },
             d:{
                 intro:"",
@@ -312,7 +312,16 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2015",
                 comment:"",
-                 collection:"(Collection privée)"
+                collection:"(Collection privée)"
+            },
+            e:{
+                intro:"",
+                title:"Maison coloniale française boulevard Ang Duong",
+                papersize:"29,7 x 42 cm",
+                imagesize:"24,5 31,5 cm",
+                date:"2015",
+                comment:"",
+                collection:"(Collection privée)"
             },
         },
         saigon:{
@@ -331,7 +340,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"27,5 x 39,5 cm",
                 date:"2018",
-                comment:"",
+                comment:"Saigon Ho-Chi-Minh.",
                 collection:""
             }
         },
@@ -378,7 +387,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"25,5 x 34 cm",
                 date:"2021",
-                comment:"",
+                comment:"Le chateau de Versailles vu depuis le parterre du Nord.",
                 collection:""
             }
         },    

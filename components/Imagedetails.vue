@@ -1,5 +1,5 @@
 <template>
-    <v-card flat tile color="blue lighten-5" min-height="700" class=" px-4 px-sm-16">
+    <v-card flat tile color="blue-grey darken-4" min-height="700" class=" px-4 px-sm-16">
         <v-row>
             <v-col cols="12" sm="6">
             </v-col>
@@ -53,12 +53,12 @@
     font-family: 'Gemunu Libre', sans-serif!important;
     font-variant:small-caps!important;
     font-weight:bold;
-    color:#37474F!important;
+    color:#E3F2FD!important;
 }
 
 .detailtexte{
     font-family:'Libre Baskerville'!important;
-    color:#37474F!important;
+    color:#E3F2FD!important;
     line-height:24px!important;
     
 }

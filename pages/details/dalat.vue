@@ -2,7 +2,8 @@
     <div>
         <Retourindex></Retourindex>
         <Imagedetails
-        image="<img src='/galerie/dalat_Lycee.png' />" 
+        :intro="$t('details.dalat.intro')"
+        image="<img alt='Le lycée Yersin à Dalat' src='/galerie/dalat_Lycee.png' />" 
         :titre="$t('details.dalat.title')"
         :formatpapier="$t('details.dalat.papersize')"
         :formatimage="$t('details.dalat.imagesize')"

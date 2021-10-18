@@ -1,24 +1,32 @@
 <template>
-    <v-card tile flat min-height="700" color="blue lighten-5" class="pa-4 pa-sm-16"> 
-        <v-row>
-            <v-col cols="12">
-                <v-card-text>
-                    <NuxtLink class="footer" to="/">
-                        <v-icon color="#EF6C00">mdi-arrow-left</v-icon>
-                    </NuxtLink>
-                </v-card-text>
-            </v-col>
-        </v-row>
-        <v-card-text v-html="$t('credits')" class="texteFrEn text-caption text-sm-body-2">
-        </v-card-text>
-    </v-card>   
+    <div>
+        <Retourindex></Retourindex>
+        <v-card tile flat min-height="700" color="blue-grey darken-4" class="pa-4 pa-sm-16"> 
+            <v-card-text v-html="$t('credits')" class="texteFrEn text-caption text-sm-body-2 ml-md-12 px-md-16">
+            </v-card-text>
+        </v-card> 
+    </div>  
 </template>
+
+<script>
+import Retourindex from '@/components/Retourindex'
+
+export default{
+    components: {
+        Retourindex,
+    },
+    data(){
+        return{
+        }
+    }
+}
+</script>
 
 <style scoped>
 
 .texteFrEn {
     font-family:'Libre Baskerville'!important;
-    color:#37474F!important;
+    color:#E3F2FD!important;
     line-height:26px!important;
     text-indent:0px;
 }

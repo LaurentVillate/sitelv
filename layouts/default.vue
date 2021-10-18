@@ -1,42 +1,37 @@
 <template>
   <v-app>
-    <v-system-bar color="blue lighten-5" class="d-flex justify-end pr-4 pr-sm-16">
-      <nuxt-link class="footer font-weight-bold" v-for="locale in availableLocales"
-      :key="locale.code"
-      :to="switchLocalePath(locale.code)">{{ locale.name }}
-      </nuxt-link>
-    </v-system-bar>
-    <!--<v-system-bar color="blue lighten-5" class="d-flex justify-end pr-4 pr-sm-16">
-      <nuxt-link :to="switchLocalePath('fr')" class="footer font-weight-bold">FR </nuxt-link>
-      <nuxt-link :to="switchLocalePath('en')" class="footer font-weight-bold">| EN</nuxt-link> 
-    </v-system-bar>-->
     <!--en-tête de l'application-->
     <v-card tile flat color="blue lighten-5" height="220" class="d-flex justify-center"> 
-      <v-card tile flat class="logo d-flex justify-center px-16 py-12" link to="/" nuxt>   
+      <v-card tile flat class="logo d-flex justify-center px-16 py-12" :to="localePath('/')">   
         <img :height='size' :width='size' src='/logo_laurent.png' />
       </v-card>  
     </v-card>
-    <v-toolbar height="72" flat color="blue lighten-5" class="pl-4 pl-sm-16">
+    <v-toolbar height="72" flat color="blue lighten-5" class="px-4 pa-sm-16">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon> 
+      <v-spacer></v-spacer>
+      <nuxt-link class="footer" v-for="locale in availableLocales"
+      :key="locale.code"
+      :to="switchLocalePath(locale.code)">{{ locale.name }}
+      </nuxt-link>
     </v-toolbar>
     <v-navigation-drawer v-model="drawer" color="blue lighten-5" absolute temporary>
       <v-list flat dense class="py-12 pl-8">
         <v-list-item-group v-model="group">
-          <v-list-item to="/">
+          <v-list-item :to="localePath('/')">
             <v-list-item-icon>
-               <v-icon color="orange darken-3">mdi-home</v-icon>
+               <v-icon color="orange darken-3">mdi-view-grid</v-icon>
             </v-list-item-icon>
             <v-list-item-title class="footer text-uppercase">{{$t("home")}}</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/bio">
+          <v-list-item :to="localePath('bio')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title class="footer text-uppercase">{{$t("about")}}</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/series">
+          <v-list-item :to="localePath('series')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-cards</v-icon>
             </v-list-item-icon>
@@ -64,14 +59,14 @@
       <v-row class="d-flex justify-center py-6">
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
-            <NuxtLink class="footer" to="/">
-              <v-icon color="orange darken-3">mdi-home</v-icon>
+            <NuxtLink class="footer" :to="localePath('/')">
+              <v-icon color="orange darken-3">mdi-view-grid</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
-            <NuxtLink class="footer" to="/bio">
+            <NuxtLink class="footer" :to="localePath('bio')">
               <v-icon color="orange darken-3">mdi-account</v-icon>
             </NuxtLink>
           </v-card-text>
@@ -85,7 +80,7 @@
         </v-col>
         <v-col cols="3">
           <v-card-text class="footer d-flex justify-center">      
-            <NuxtLink class="footer" to="/credits">
+            <NuxtLink class="footer" :to="localePath('credits')">
               <v-icon color="orange darken-3">mdi-scale-balance</v-icon>
             </NuxtLink>
           </v-card-text>
