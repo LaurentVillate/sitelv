@@ -45,6 +45,20 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'laurent.villate@yahoo.com',
+      },
+      smtp: {
+        host: "smtp.mailtrap.io",
+        port: 2525,
+        auth: {
+          user: "b4cd4fb64eb790",
+          pass: "bfe1e1afdd2d09"
+        }
+      },
+    }],
     [
       '@nuxtjs/i18n',
       { 

@@ -5,6 +5,14 @@ export default{
     contact:"contact",
     bio: "<p>Laurent Villate paints in gouache on paper. He creates urban views.</p><p>He lived in Cambodia for several years, where he drew and painted the series 36 views of Phnom Penh.</p><p>Even though he keeps working about Asia, he now focuses on European urban world. Employing strong colours, influenced by the “ligne claire”, he emphasizes on contrasts of atmosphere and architecture.</p>",
     credits:"<p>Texts and images : Laurent Villate</p><br><p>design and production : Image Rare, éditeur digital<p>Hosting : 1&1 Ionos</p><br><p>The contents of this site, in particular images and texts, are subject to copyright.</p>",
+    form:{
+        prenom:"First name",
+        nom:"Last name",
+        mail:"E-mail",
+        message:"Message",
+        envoi:"Send",
+        annulation:"Cancel"
+    },
     details:{
         type:"Gouache and ink on paper",
         size1:"Paper size : ",
@@ -247,7 +255,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
                 comment:"Phnom Penh, Olympic Stadium.",
-                 collection:""
+                collection:""
             },
             b:{
                 intro:"",
@@ -256,7 +264,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
                 comment:"",
-                 collection:""
+                collection:""
             },
             c:{
                 intro:"",
@@ -265,7 +273,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
                 comment:"",
-                 collection:"(Private collection)"
+                collection:"(Private collection)"
             },
             d:{
                 intro:"",
@@ -274,7 +282,7 @@ export default{
                 imagesize:"24,5 31,5 cm",
                 date:"2019",
                 comment:"Pochentong Airport.",
-                 collection:""
+                collection:""
             },
         },
         phnompenh2:{
