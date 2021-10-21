@@ -4,7 +4,8 @@
             <v-col cols="12">
                 <v-card-text>
                     <NuxtLink class="footer" :to="localePath('/')">
-                        <v-icon color="#EF6C00">mdi-arrow-left</v-icon>
+                        <v-icon color="#EF6C00">mdi-view-grid</v-icon>
+                        {{$t("home")}}
                     </NuxtLink>
                 </v-card-text>
             </v-col>

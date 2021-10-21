@@ -38,7 +38,7 @@
             <v-list-item-title class="footer text-uppercase">{{$t("series")}}</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/contact">
+          <v-list-item :to="localePath('contact')">
               <v-list-item-icon>
             <v-icon color="orange darken-3">mdi-email</v-icon>
               </v-list-item-icon>

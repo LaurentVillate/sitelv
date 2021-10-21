@@ -11,7 +11,9 @@ export default{
         mail:"E-mail",
         message:"Message",
         envoi:"Send",
-        annulation:"Cancel"
+        annulation:"Cancel",
+        succes:"Message sent",
+        erreur:"Some fields are invalid"
     },
     details:{
         type:"Gouache and ink on paper",
