@@ -6,7 +6,7 @@
         <img :height='size' :width='size' src='/logo_laurent.png' />
       </v-card>  
     </v-card>
-    <v-toolbar height="72" flat color="blue lighten-5" class="px-4 pa-sm-16">
+    <v-toolbar height="40" flat color="blue lighten-5" class="px-4 pa-sm-16">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon> 
       <v-spacer></v-spacer>
       <nuxt-link class="footer" v-for="locale in availableLocales"
@@ -31,11 +31,11 @@
             <v-list-item-title class="footer text-uppercase">{{$t("about")}}</v-list-item-title>
           </v-list-item>
 
-          <v-list-item :to="localePath('series')">
+          <v-list-item :to="localePath('catalogue')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-cards</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer text-uppercase">{{$t("series")}}</v-list-item-title>
+            <v-list-item-title class="footer text-uppercase">{{$t("catalogue")}}</v-list-item-title>
           </v-list-item>
 
           <v-list-item :to="localePath('contact')">
