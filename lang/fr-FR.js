@@ -393,7 +393,7 @@ export default{
             },
             b:{
                 intro:"",
-                title:"Fenêtre ouvert dans le salon de la Guerre",
+                title:"Fenêtre ouverte dans le salon de la Guerre",
                 papersize:"29,7 x 42 cm",
                 imagesize:"25,5 x 34 cm",
                 date:"2021",

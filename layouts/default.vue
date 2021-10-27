@@ -9,7 +9,7 @@
     <v-toolbar height="40" flat color="blue lighten-5" class="px-4 pa-sm-16">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon> 
       <v-spacer></v-spacer>
-      <nuxt-link class="footer" v-for="locale in availableLocales"
+      <nuxt-link class="textorange" v-for="locale in availableLocales"
       :key="locale.code"
       :to="switchLocalePath(locale.code)">{{ locale.name }}
       </nuxt-link>
@@ -21,28 +21,28 @@
             <v-list-item-icon>
                <v-icon color="orange darken-3">mdi-view-grid</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer text-uppercase">{{$t("home")}}</v-list-item-title>
+            <v-list-item-title class="textorange text-uppercase">{{$t("home")}}</v-list-item-title>
           </v-list-item>
 
           <v-list-item :to="localePath('bio')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer text-uppercase">{{$t("about")}}</v-list-item-title>
+            <v-list-item-title class="textorange text-uppercase">{{$t("about")}}</v-list-item-title>
           </v-list-item>
 
           <v-list-item :to="localePath('catalogue')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-cards</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="footer text-uppercase">{{$t("catalogue")}}</v-list-item-title>
+            <v-list-item-title class="textorange text-uppercase">{{$t("catalogue")}}</v-list-item-title>
           </v-list-item>
 
           <v-list-item :to="localePath('contact')">
               <v-list-item-icon>
             <v-icon color="orange darken-3">mdi-email</v-icon>
               </v-list-item-icon>
-            <v-list-item-title class="footer text-uppercase">{{$t("contact")}}</v-list-item-title>
+            <v-list-item-title class="textorange text-uppercase">{{$t("contact")}}</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>
@@ -55,32 +55,31 @@
 
     <!--pied de page de l'application--> 
     <v-card tile flat color="blue lighten-5">
-      <v-divider color="#BBDEFB"></v-divider>
       <v-row class="d-flex justify-center py-6">
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
-            <NuxtLink class="footer" :to="localePath('/')">
+            <NuxtLink class="textorange" :to="localePath('/')">
               <v-icon color="orange darken-3">mdi-view-grid</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
-            <NuxtLink class="footer" :to="localePath('bio')">
+            <NuxtLink class="textorange" :to="localePath('bio')">
               <v-icon color="orange darken-3">mdi-account</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
-          <v-card-text class="footer d-flex justify-center">      
-            <NuxtLink class="footer" to="/contact">
+          <v-card-text class="textorange d-flex justify-center">      
+            <NuxtLink class="textorange" to="/contact">
               <v-icon color="orange darken-3">mdi-email</v-icon>
             </NuxtLink>
           </v-card-text>
         </v-col>
         <v-col cols="3">
-          <v-card-text class="footer d-flex justify-center">      
-            <NuxtLink class="footer" :to="localePath('credits')">
+          <v-card-text class="textorange d-flex justify-center">      
+            <NuxtLink class="textorange" :to="localePath('credits')">
               <v-icon color="orange darken-3">mdi-scale-balance</v-icon>
             </NuxtLink>
           </v-card-text>
@@ -88,7 +87,7 @@
       </v-row>
     </v-card>
     <v-footer fluid padless tile flat color="blue lighten-5">
-      <v-card-text class="footer text-body-2 px-sm-8 d-flex justify-center">
+      <v-card-text class="textorange text-body-2 px-sm-8 d-flex justify-center">
       © Laurent Villate – {{ new Date().getFullYear() }}
       </v-card-text>
     </v-footer>
@@ -125,7 +124,7 @@ export default {
 
 <style scoped>
 
-.footer{
+.textorange{
   font-family: 'Gemunu Libre', sans-serif!important;
   color:#EF6C00!important;
   text-decoration:none!important;

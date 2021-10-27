@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         image="<img alt='Parking Uniclo à Ujiie (Tochigi)' src='/galerie/ujiie_Parking.png' />" 
         :titre="$t('details.ujiie.title')"

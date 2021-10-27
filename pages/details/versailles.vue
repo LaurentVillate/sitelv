@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         image="<img alt='Chateau de Versailles de nuit' src='/galerie/versailles_Chateau.png' />" 
         :titre="$t('details.versailles.a.title')"

@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         :intro="$t('details.phnompenh2.a.intro')"
         image="<img alt='Le marché central de Phnom Penh' src='/galerie/phnompenh_Marche.png' />" 

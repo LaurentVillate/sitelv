@@ -4,7 +4,7 @@
             <v-col cols="12" sm="6">
             </v-col>
             <v-col cols="12" sm="6">
-                <v-card-text class="detailtexte text-caption text-sm-body-2 mr-md-16 pr-md-16">
+                <v-card-text class="textblue text-caption text-sm-body-2 mr-md-16 pr-md-16">
                     <i>{{intro}}</i>
                 </v-card-text>
             </v-col>
@@ -17,11 +17,11 @@
             </v-col>
             <v-col cols="12" md="6">
                 <v-card tile flat color="transparent" class="mr-md-16 pr-md-16">
-                <v-card-title class="detailtitre text-body-2 text-sm-h5">
+                <v-card-title class="textbluetitre text-body-2 text-sm-h5">
                     <p>{{titre}}</p>
                 </v-card-title>
                 <v-divider color="#BBDEFB"></v-divider>
-                <v-card-text class="detailtexte text-caption text-sm-body-2">
+                <v-card-text class="textblue text-caption text-sm-body-2">
                     <br><br>                   
                     <p>{{$t("details.type")}}</p>
                     <p>{{$t("details.size1")}} {{formatpapier}}</p>
@@ -49,14 +49,14 @@
 
 <style scoped>
 
-.detailtitre{
+.textbluetitre{
     font-family: 'Gemunu Libre', sans-serif!important;
     font-variant:small-caps!important;
     font-weight:bold;
     color:#E3F2FD!important;
 }
 
-.detailtexte{
+.textblue{
     font-family:'Libre Baskerville'!important;
     color:#E3F2FD!important;
     line-height:24px!important;

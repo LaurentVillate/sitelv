@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         :intro="$t('details.hongkong.a.intro')"
         image="<img alt='Hong Kong, Diamond Hill, Nan Liang Garden' src='/galerie/hongkong_Pont.png' />" 

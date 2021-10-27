@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         :intro="$t('details.dalat.intro')"
         image="<img alt='Le lycée Yersin à Dalat' src='/galerie/dalat_Lycee.png' />" 

@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         :intro="$t('details.hue.a.intro')"
         image="<img alt='Maison et clôture à Hué' src='/galerie/hue_Arbres.png' />" 

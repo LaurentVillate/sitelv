@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         image="<img alt='La Gare centrale d'Amsterdam' src='/galerie/amsterdam_Gare.png' />" 
         :titre="$t('details.amsterdam.a.title')"

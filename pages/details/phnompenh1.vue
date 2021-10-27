@@ -1,6 +1,8 @@
 <template>
     <div>
+        <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+        </v-card>
         <Imagedetails
         :intro="$t('details.phnompenh1.a.intro')"
         image="<img alt='Stade olympique de Phnom Penh' src='/galerie/phnompenh_Stade.png' />" 
