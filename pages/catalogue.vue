@@ -16,6 +16,7 @@
         hide-details
         ></v-text-field>
       </v-card-title>
+      <br>
       <v-data-table dense class="textgrey"
       :headers="headers"
       :items="images"
@@ -27,6 +28,7 @@
 </template>
 
 <script>
+import axios from "axios"
 export default {
     data () {        
         return{
@@ -45,17 +47,28 @@ export default {
             { text: this.$t('tab.an'), value: 'an' },
             { text: this.$t('tab.dispo'), value: 'dispo' },
         ],
-         images: [
+          images: [
           {
-            titre: 'Footbal devant le palais des Sports',
-            serie: '36 vues de Phnom Penh',
-            ville: 'Phnom Penh',
-            pays: 'Cambodge',
-            an: '2014',
-            dispo: 'Collection privée',
+            titre: '',
+            serie: '',
+            ville: '',
+            pays: '',
+            an: '',
+            dispo: '',
           }, 
          ]  
         }
+    },
+    methods: {
+      getdatas(){
+        //axios.get('http://localhost:1337/images').then(reponse => this.datacatalog = reponse.data);//
+        axios.get('http://localhost:1337/images')
+        .then(reponse => this.images = reponse.data)
+        .catch(this.items = [{item:"Oups! Erreur de chargement"}]);
+      }
+    },
+    mounted() {
+        this.images = this.getdatas();
     }
 }
 </script>
