@@ -406,10 +406,8 @@ export default{
         titretab:"Catalogue of works",
         recherche:"Search",
         titre:"Title",
-        serie:"Series",
-        ville:"City",
-        pays:"Country",
-        an:"Year",
-        dispo:"",
+        serie:"Series or city",  
+        pays:"country",      
+        date:"Year",
     },
 }

@@ -41,20 +41,15 @@ export default {
                 value: 'titre',
             },*/
             { text: this.$t('tab.titre'), value: 'titre' },
-            { text: this.$t('tab.serie'), value: 'serie' },
-            { text: this.$t('tab.ville'), value: 'ville' },
-            { text: this.$t('tab.pays'), value: 'pays' },
-            { text: this.$t('tab.an'), value: 'an' },
-            { text: this.$t('tab.dispo'), value: 'dispo' },
+            { text: this.$t('tab.serie'), value: 'ville.name' },
+            { text: this.$t('tab.pays'), value: 'ville.pays' },
+            { text: this.$t('tab.date'), value: 'date' },
         ],
           images: [
           {
             titre: '',
-            serie: '',
             ville: '',
-            pays: '',
-            an: '',
-            dispo: '',
+            date: '',
           }, 
          ]  
         }
@@ -63,12 +58,13 @@ export default {
       getdatas(){
         //axios.get('http://localhost:1337/images').then(reponse => this.datacatalog = reponse.data);//
         axios.get('http://localhost:1337/images')
+        //.then(reponse => console.log(reponse.data))//
         .then(reponse => this.images = reponse.data)
         .catch(this.items = [{item:"Oups! Erreur de chargement"}]);
       }
     },
     mounted() {
-        this.images = this.getdatas();
+        this.getdatas();
     }
 }
 </script>
