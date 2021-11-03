@@ -20,6 +20,7 @@ export default{
         size1:"Paper size : ",
         size2:"Image size : ",
         amiens:{
+            serie:"Amiens",
             a:{
                 intro:"",
                 title:"The rue de Cottenchy at dusk",
@@ -40,15 +41,33 @@ export default{
             },
             c:{
                 intro:"",
-                title:"The place du Don under the snow",
+                title:"Place du Don under the snow",
                 papersize:"29,7 x 42 cm",
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
                 comment:"Amiens, France.",
                 collection:""
             },
+            d:{
+                title:"The Cathedral behind the Perret Tower",
+                date:"2018"
+            },
+            e:{
+                title:"Place de la gare by night",
+                date:"2019"
+            },
+            f:{
+                title:"Buildings boulevard d’Alsace-Lorraine",
+                date:"2019"
+            },
+            g:{
+                title:"The Cathedral by night",
+                date:"2019"
+            },
+
         },
         amsterdam:{
+            serie:"Amsterdam",
             a:{
                 intro:"",
                 title:"Amsterdam Centraal, yellow sky",
@@ -76,8 +95,21 @@ export default{
                 comment:"Amsterdam.",
                 collection:""
             },
+            d:{
+                title:"Forgotten umbrella",
+                date:"2017"
+            },
+            e:{
+                title:"night wind",
+                date:"2017"
+            },
+            f:{
+                title:"Keizersgracht, three houses",
+                date:"2017"
+            }
         },
         angkor:{
+            serie:"Angkor",
             a:{
                 intro:"",
                 title:"Night in the Bayon Temple",
@@ -136,6 +168,7 @@ export default{
             },
         },
         battambang:{
+            serie:"battambang",
             a:{
                 intro:"",
                 title:"Battambang Airport",
@@ -165,6 +198,7 @@ export default{
             collection:""
         },
         hongkong:{
+            serie:"Seven views of Hong Kong",
             a:{
                 intro:"From the series \"Seven views of Hong Kong\"",
                 title:"The little red bridge",
@@ -194,6 +228,7 @@ export default{
             },
         },
         hue:{
+            serie:"Hue smokers",
             a:{
                 intro:"From the series \"Hue smokers\".",
                 title:"Between two trees",
@@ -250,6 +285,7 @@ export default{
             collection:""
         },
         phnompenh1:{
+            serie:"36 views of Phnom Penh",
             a:{
                 intro:"From the series \"36 views of Phnom Penh\", these images highlight the architecture of Vann Molyvann (1926-2017).",
                 title:"Football in front of the Sports Palace",
@@ -335,6 +371,7 @@ export default{
             },
         },
         saigon:{
+            serie:"Saigon Ho Chi Minh",
             a:{
                 intro:"",
                 title:"Moto, wall and flags",
@@ -382,6 +419,7 @@ export default{
             collection:""
         },
         versailles:{
+            serie:"Versailles",
             a:{
                 intro:"",
                 title:"A night visit in the State Apartment",

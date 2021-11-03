@@ -40,32 +40,36 @@ export default {
                 sortable: false,
                 value: 'titre',
             },*/
+            { text: '', value: 'image' },
+            { text: this.$t('tab.serie'), value: 'serie' },
             { text: this.$t('tab.titre'), value: 'titre' },
-            { text: this.$t('tab.serie'), value: 'ville.name' },
-            { text: this.$t('tab.pays'), value: 'ville.pays' },
             { text: this.$t('tab.date'), value: 'date' },
         ],
           images: [
           {
-            titre: '',
-            ville: '',
-            date: '',
+            image:"<img src='/bio/esquisse_Angkor.JPG' />",
+            serie: this.$t('details.amiens.serie'),
+            titre: this.$t('details.amiens.a.title'),
+            date: this.$t('details.amiens.a.date'),
+          }, 
+          {
+            serie: this.$t('details.amiens.serie'),
+            titre: this.$t('details.amiens.b.title'),
+            date: this.$t('details.amiens.b.date'),
           }, 
          ]  
         }
     },
-    methods: {
+    /*methods: {
       getdatas(){
-        //axios.get('http://localhost:1337/images').then(reponse => this.datacatalog = reponse.data);//
-        axios.get('http://localhost:1337/images')
+        axios.get('http://localhost:1337/images?_locale=all')
         //.then(reponse => console.log(reponse.data))//
-        .then(reponse => this.images = reponse.data)
-        .catch(this.items = [{item:"Oups! Erreur de chargement"}]);
-      }
+        .then(reponse => this.images = reponse.data)    
+      },
     },
     mounted() {
         this.getdatas();
-    }
+    }*/
 }
 </script>
 

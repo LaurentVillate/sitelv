@@ -20,6 +20,7 @@ export default{
         size1:"Format papier : ",
         size2:"Format image : ",
         amiens:{
+            serie:"Amiens",
             a:{
                 intro:"",
                 title:"La rue de Cottenchy au crépuscule",
@@ -36,7 +37,7 @@ export default{
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
                 comment:"",
-                collection:"Amiens."
+                collection:""
             },
             c:{
                 intro:"",
@@ -45,10 +46,28 @@ export default{
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
                 comment:"",
-                collection:"Amiens."
+                collection:""
             },
+            d:{
+                title:"La cathédrale derrière la Tour Perret",
+                date:"2018"
+            },
+            e:{
+                title:"Place de la gare la nuit",
+                date:"2019"
+            },
+            f:{
+                title:"Immeubles boulevard d'Alsace-Lorraine",
+                date:"2019"
+            },
+            g:{
+                title:"La cathedrale la nuit",
+                date:"2019"
+            },
+
         },
         amsterdam:{
+            serie:"Amsterdam",
             a:{
                 intro:"",
                 title:"Amsterdam Centraal, ciel jaune",
@@ -76,8 +95,21 @@ export default{
                 comment:"Amsterdam.",
                 collection:""
             },
+            d:{
+                title:"Parapluie oublié",
+                date:"2017"
+            },
+            e:{
+                title:"Vent nocturne",
+                date:"2017"
+            },
+            f:{
+                title:"Keizersgracht, trois immeubles",
+                date:"2017"
+            }
         },
         angkor:{
+            serie:"Angkor",
             a:{
                 intro:"Vues d'Angkor",
                 title:"La nuit au Bayon",
@@ -136,6 +168,7 @@ export default{
             },
         },
         battambang:{
+            serie:"Battambang",
             a:{
                 intro:"",
                 title:"L'aéroport de Battambang",
@@ -165,6 +198,7 @@ export default{
             collection:""
         },
         hongkong:{
+            serie:"Sept vues de Hong Kong",
             a:{
                 intro:"Images extraites de la série \"Sept vues de Hong Kong\"",
                 title:"Le petit pont rouge",
@@ -194,6 +228,7 @@ export default{
             },
         },
         hue:{
+            serie:"Fumeurs de Hue",
             a:{
                 intro:"Images extraites de la serie \"Fumeurs de Hué\".",
                 title:"Entre deux arbres",
@@ -250,6 +285,7 @@ export default{
             collection:""
         },
         phnompenh1:{
+            serie:"36 vues de Phnom Penh",
             a:{
                 intro:"Tirées de la série \"36 vues de Phnom Penh\", ces images mettent en avant l'architecture de Vann Molyvann (1926-2017).",
                 title:"Football devant le palais des Sports",
@@ -335,6 +371,7 @@ export default{
             },
         },
         saigon:{
+            serie:"Saigon Ho Chi Minh",
             a:{
                 intro:"",
                 title:"Moto, mur et drapeaux",
@@ -382,6 +419,7 @@ export default{
             collection:""
         },
         versailles:{
+            serie:"Versailles",
             a:{
                 intro:"",
                 title:"Visite nocturne dans les Grands Appartements ",

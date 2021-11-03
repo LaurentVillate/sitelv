@@ -38,6 +38,14 @@
             <v-list-item-title class="textorange text-uppercase">{{$t("catalogue")}}</v-list-item-title>
           </v-list-item>
 
+          <v-list-item :to="localePath('cataloguedeux')">
+            <v-list-item-icon>
+              <v-icon color="orange darken-3">mdi-cards</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="textorange text-uppercase">{{$t("catalogue")}}</v-list-item-title>
+          </v-list-item>
+
+
           <v-list-item :to="localePath('contact')">
               <v-list-item-icon>
             <v-icon color="orange darken-3">mdi-email</v-icon>
