@@ -23,7 +23,7 @@ export default{
             serie:"Amiens",
             a:{
                 intro:"",
-                title:"The rue de Cottenchy at dusk",
+                title:"Rue de Cottenchy at dusk",
                 papersize:"29,7 x 42 cm",
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
@@ -100,7 +100,7 @@ export default{
                 date:"2017"
             },
             e:{
-                title:"night wind",
+                title:"Night wind",
                 date:"2017"
             },
             f:{
@@ -128,11 +128,27 @@ export default{
                 comment:"",
                 collection:""
             },
+            c:{
+                title:"Angkor Vat, September rain",
+                date:"2015"
+            },
+            d:{
+                title:"Angkor Vat, a dive in the morning",
+                date:"2016"
+            },
+            e:{
+                title:"Angkor Vat, a night visit",
+                date:"2016"
+            },
+            f:{
+                title:"Angkor Vat, statue of Buddha",
+                date:"2015"
+            },
         },
         autoportrait:{
             a:{
                 intro:"",
-                title:"Autoportrait en pied",
+                title:"Autoportrait en pied (wasting ground in Hue)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"20 x 27,5 cm",
                 date:"2016",
@@ -150,7 +166,7 @@ export default{
             },
             c:{
                 intro:"",
-                title:"Autoportrait en pied",
+                title:"Autoportrait en pied (Ferrari flip-flops in Hong Kong)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 x 31,5 cm",
                 date:"2016",
@@ -168,7 +184,7 @@ export default{
             },
         },
         battambang:{
-            serie:"battambang",
+            serie:"Battambang",
             a:{
                 intro:"",
                 title:"Battambang Airport",
@@ -187,18 +203,37 @@ export default{
                 comment:"",
                 collection:""
             },
+            c:{
+                title:"Battambang Market at night",
+                date:"2019"
+            },
         },
         dalat:{
-            intro:"From the series \"Nights of Dalat\"",
-            title:"Lycée Yersin at dusk",
-            papersize:"42 x 29,7 cm",
-            imagesize:"17,5 x 33,8 cm",
-            date:"2021",
-            comment:"Dalat, Vietnam.",
-            collection:""
+            serie:"\"Nights of Dalat\"",
+            a:{
+                intro:"From the series \"Nuits de Dalat\"",
+                title:"The pedagogical College of Dalat (lycée Yersin) at dusk",
+                papersize:"42 x 29,7 cm",
+                imagesize:"17,5 x 33,8 cm",
+                date:"2021",
+                comment:"Dalat, Vietnam.",
+                collection:""
+            },
+            b:{
+                title:"A lamp-post in front of the Hoa Binh Theater",
+                date:"2021"
+            },
+            c:{
+                title:"Moonlight effect on the Dinh 3 Palace",
+                date:"2021"
+            },
+            d:{
+                title:"The gate of the Institut Pasteur",
+                date:"2021"
+            },           
         },
         hongkong:{
-            serie:"Seven views of Hong Kong",
+            serie:"\"Seven views of Hong Kong\"",
             a:{
                 intro:"From the series \"Seven views of Hong Kong\"",
                 title:"The little red bridge",
@@ -226,9 +261,25 @@ export default{
                 comment:"",
                 collection:""
             },
+            d:{
+                title:"Man Mo temple tiles",
+                date:"2016"
+            },
+            e:{
+                title:"Blue House, Stone Nullah Lane",
+                date:"2016"
+            },
+            f:{
+                title:"Upside down umbrella",
+                date:"2016"
+            },
+            g:{
+                title:"Escalators at Peak Tower",
+                date:"2016"
+            },
         },
         hue:{
-            serie:"Hue smokers",
+            serie:"\"Hue smokers\"",
             a:{
                 intro:"From the series \"Hue smokers\".",
                 title:"Between two trees",
@@ -247,15 +298,55 @@ export default{
                 comment:"",
                 collection:""
             },
+            c:{
+                title:"The red door",
+                date:"2016"
+            },
+            d:{
+                title:"Tu Do Stadium",
+                date:"2016"
+            },
+            e:{
+                title:"In the Stele Pavilion, tomb of Tu Duc",
+                date:"2016"
+            },
+            f:{
+                title:"Smoker near the Anh Dinh Place",
+                date:"2016"
+            },
+            g:{
+                title:"Autoportrait en pied (Dien Tho Palace in Hue)",
+                date:"2016"
+            },
+           
         },
         kampot:{
-            intro:"",
-            title:"Laundry blowing in the wind",
-            papersize:"29,7 x 42 cm",
-            imagesize:"27,5 x 27,5 cm",
-            date:"2015",
-            comment:"Kampot, Cambodia",
-            collection:""
+            serie:"Kampot",
+            a:{
+                intro:"",
+                title:"Laundry blowing in the wind",
+                papersize:"29,7 x 42 cm",
+                imagesize:"27,5 x 27,5 cm",
+                date:"2015",
+                comment:"Kampot, Cambodia",
+                collection:""
+            },
+            b:{
+                title:"The old French bridge",
+                date:"2015"
+            },
+            c:{
+                title:"The billard table",
+                date:"2015"
+            },
+            d:{
+                title:"The old cinema",
+                date:"2016"
+            },
+            e:{
+                title: "Autoportrait en pied (On a tile floor in Kampot)",
+                date:"2016"
+            }
         },
         lehavre:{
             intro:"",

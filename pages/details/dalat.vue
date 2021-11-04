@@ -4,13 +4,13 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        :intro="$t('details.dalat.intro')"
+        :intro="$t('details.dalat.a.intro')"
         image="<img alt='Le lycée Yersin à Dalat' src='/galerie/dalat_Lycee.png' />" 
-        :titre="$t('details.dalat.title')"
-        :formatpapier="$t('details.dalat.papersize')"
-        :formatimage="$t('details.dalat.imagesize')"
-        :date="$t('details.dalat.date')"
-        :commentaire="$t('details.dalat.comment')"
+        :titre="$t('details.dalat.a.title')"
+        :formatpapier="$t('details.dalat.a.papersize')"
+        :formatimage="$t('details.dalat.a.imagesize')"
+        :date="$t('details.dalat.a.date')"
+        :commentaire="$t('details.dalat.a.comment')"
         >
         </Imagedetails>
     </div>

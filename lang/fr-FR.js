@@ -128,11 +128,27 @@ export default{
                 comment:"",
                 collection:""
             },
+            c:{
+                title:"Angkor Vat, pluie de septembre",
+                date:"2015"
+            },
+            d:{
+                title:"Angkor Vat, plongeon le matin",
+                date:"2016"
+            },
+            e:{
+                title:"Angkor Vat, visite nocturne",
+                date:"2016"
+            },
+            f:{
+                title:"Angkor vat, statue de Bouddha",
+                date:"2015"
+            },
         },
         autoportrait:{
             a:{
                 intro:"",
-                title:"Autoportrait en pied",
+                title:"Autoportrait en pied (sur un terrain vague à Hué)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"20 x 27,5 cm",
                 date:"2016",
@@ -150,7 +166,7 @@ export default{
             },
             c:{
                 intro:"",
-                title:"Autoportrait en pied",
+                title:"Autoportrait en pied (en tongs Ferrari à Hong Kong)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 x 31,5 cm",
                 date:"2016",
@@ -187,18 +203,37 @@ export default{
                 comment:"",
                 collection:""
             },
+            c:{
+                title:"Le marché de Battambang la nuit",
+                date:"2019"
+            },
         },
         dalat:{
-            intro:"Extrait de la série \"Nuits de Dalat\"",
-            title:"Le lycée Yersin au crépuscule",
-            papersize:"42 x 29,7 cm",
-            imagesize:"17,5 x 33,8 cm",
-            date:"2021",
-            comment:"Dalat, Vietnam.",
-            collection:""
+            serie:"\"Nuits de Dalat\"",
+            a:{
+                intro:"Extrait de la série \"Nuits de Dalat\"",
+                title:"Le lycée Yersin au crépuscule",
+                papersize:"42 x 29,7 cm",
+                imagesize:"17,5 x 33,8 cm",
+                date:"2021",
+                comment:"Dalat, Vietnam.",
+                collection:""
+            },
+            b:{
+                title:"Reverbère devant le théâtre Hoa Binh",
+                date:"2021"
+            },
+            c:{
+                title:"Effet de lune au palais Dinh 3",
+                date:"2021"
+            },
+            d:{
+                title:"Le portail de l'Institut Pasteur",
+                date:"2021"
+            },           
         },
         hongkong:{
-            serie:"Sept vues de Hong Kong",
+            serie:"\"Sept vues de Hong Kong\"",
             a:{
                 intro:"Images extraites de la série \"Sept vues de Hong Kong\"",
                 title:"Le petit pont rouge",
@@ -226,9 +261,25 @@ export default{
                 comment:"",
                 collection:""
             },
+            d:{
+                title:"Tuiles du temple Man Mo",
+                date:"2016"
+            },
+            e:{
+                title:"Blue House, Stone Nullah Lane",
+                date:"2016"
+            },
+            f:{
+                title:"Parapluie renversé",
+                date:"2016"
+            },
+            g:{
+                title:"Les escalators de Peak Tower",
+                date:"2016"
+            },
         },
         hue:{
-            serie:"Fumeurs de Hue",
+            serie:"\"Fumeurs de Hué\"",
             a:{
                 intro:"Images extraites de la serie \"Fumeurs de Hué\".",
                 title:"Entre deux arbres",
@@ -247,15 +298,54 @@ export default{
                 comment:"",
                 collection:""
             },
+            c:{
+                title:"La porte rouge",
+                date:"2016"
+            },
+            d:{
+                title:"Le stade Olympique de Hué",
+                date:"2016"
+            },
+            e:{
+                title:"Dans le pavillon de la Stèle, tombeau de Tu Duc",
+                date:"2016"
+            },
+            f:{
+                title:"Fumeur près du palais Anh Dinh",
+                date:"2016"
+            },
+            g:{
+                title:"Autoportrait en pied (dans la palais Dien Tho à Hué)",
+                date:"2016"
+            },
         },
         kampot:{
-            intro:"",
-            title:"Linge au vent",
-            papersize:"29,7 x 42 cm",
-            imagesize:"27,5 x 27,5 cm",
-            date:"2015",
-            comment:"Kampot, Cambodge.",
-            collection:""
+            serie:"Kampot",
+            a:{
+                intro:"",
+                title:"Linge au vent",
+                papersize:"29,7 x 42 cm",
+                imagesize:"27,5 x 27,5 cm",
+                date:"2015",
+                comment:"Kampot, Cambodge",
+                collection:""
+            },
+            b:{
+                title:"Le vieux pont français",
+                date:"2015"
+            },
+            c:{
+                title:"Le billard",
+                date:"2015"
+            },
+            d:{
+                title:"Le vieux cinéma",
+                date:"2016"
+            },
+            e:{
+                title: "Autoportrait en pied (En espadrilles sur du carrelage à Kampot)",
+                date:"2016"
+            }
         },
         lehavre:{
             intro:"",
