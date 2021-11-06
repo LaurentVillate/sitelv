@@ -348,34 +348,91 @@ export default{
             }
         },
         lehavre:{
-            intro:"",
-            title:"L'hôtel de Ville du Havre la nuit",
-            papersize:"29,7 x 42 cm",
-            imagesize:"21,5 x 32 cm",
-            date:"2020",
-            comment:"",
-            collection:""
+            serie:"Le Havre",
+            a:{
+                intro:"",
+                title:"L'hôtel de Ville du Havre la nuit",
+                papersize:"29,7 x 42 cm",
+                imagesize:"21,5 x 32 cm",
+                date:"2020",
+                comment:"",
+                collection:""
+            },
+            b:{
+                title:"Le bassin du Commerce et la maison de la Culture",
+                date:"2020"
+            },
+            c:{
+                title:"L'église Saint-Joseph depuis la plage",
+                date:"2020"
+            },
         },
         londres:{
-            intro:"",
-            title:"London nocturne 2",
-            papersize:"29,7 x 42 cm",
-            imagesize:"25 x 37 cm",
-            date:"2017",
-            comment:"Londres, Lexham Mews.",
-            collection:""
+            serie:"Londres",
+            a:{
+                intro:"",
+                title:"London nocturne 2",
+                papersize:"29,7 x 42 cm",
+                imagesize:"25 x 37 cm",
+                date:"2017",
+                comment:"Londres, Lexham Mews.",
+                collection:""
+            },
+            b:{
+                title:"London nocturne 1",
+                date:"2017"
+            },
+            c:{
+                title:"London nocturne 3",
+                date:"2017"
+            },
         },
-        paris:{
-            intro:"",
-            title:"Regard sur le pont Marie",
-            papersize:"29,7 x 42 cm",
-            imagesize:"19,5 x 37,8 cm",
-            date:"2018",
-            comment:"Paris, le pont Marie vu du quai des Célestins, face à l'île Saint-Louis.",
-            collection:""
+        paris1:{
+            serie:"\"Cinq saisons à Paris\"",
+            a:{
+                title:"Rêve de neige ",
+                date:"2017",
+            },
+            b:{
+                title:"Robe de printemps",
+                date:"2017",
+            },
+            c:{
+                title:"Lumière d’été ",
+                date:"2017",
+            },
+            d:{
+                title:"Été indien",
+                date:"2018",
+            },
+            e:{
+                title:"Vent d’automne",
+                date:"2017",
+            },
+        },
+        paris2:{
+            serie:"Paris",
+            a:{
+                intro:"",
+                title:"Regard sur le pont Marie",
+                papersize:"29,7 x 42 cm",
+                imagesize:"19,5 x 37,8 cm",
+                date:"2018",
+                comment:"Paris, le pont Marie vu du quai des Célestins, face à l'île Saint-Louis.",
+                collection:""
+            },
+            b:{
+                title:"Pont Marie, Brouillard",
+                date:"2018"
+            },
+            c:{
+                title:"Passage Gustave Lepeu le soir",
+                date:"2020"
+            },
+
         },
         phnompenh1:{
-            serie:"36 vues de Phnom Penh",
+            serie:"\"36 vues de Phnom Penh\"",
             a:{
                 intro:"Tirées de la série \"36 vues de Phnom Penh\", ces images mettent en avant l'architecture de Vann Molyvann (1926-2017).",
                 title:"Football devant le palais des Sports",
@@ -412,6 +469,10 @@ export default{
                 comment:"Aéroport de Pochentong.",
                  collection:""
             },
+            e:{
+                title:"Un soir au Theâtre Chaktomuk",
+                date:"2021"
+            }
         },
         phnompenh2:{
             a:{
@@ -459,6 +520,54 @@ export default{
                 comment:"",
                 collection:"(Collection privée)"
             },
+            f:{
+                title:"Wat Langka vu du balcon",
+                date:"2021"
+            },
+            g:{
+                title:"Le Bassac et le pont Monivong à l'aube",
+                date:"2015"
+            },
+            h:{
+                title:"Maison sur un terrain vague boulevard Sothearos",
+                date:"2015"
+            },
+            i:{
+                title:"Moine marchant devant le palais royal",
+                date:"2015"
+            },
+            j:{
+                title:"Les drapeaux sur le quai Sisowath",
+                date:"2015"
+            },
+            k:{
+                title:"Le Wat Phnom la nuit",
+                date:"2015"
+            },
+            l:{
+                title:"Curiosité architecturale à Chroy Changvar",
+                date:"2015"
+            },
+            m:{
+                title:"Arrivée du bac de l’autre côté du Mékong",
+                date:"2015"
+            },
+            n:{
+                title:"La piscine de l’URPP",
+                date:"2015"
+            },
+            o:{
+                title:"L’ambassade de France boulevard Monivong",
+                date:"2015"
+            },
+            p:{
+                title:"Vue nocturne d’une maison rue de l’Union européenne",
+                date:"2015"
+            },
+            q:{
+                title:"Autoportrait en pied (sur un trottoir rue Pasteur)",
+                date:"2015"
+            }
         },
         saigon:{
             serie:"Saigon Ho Chi Minh",
@@ -479,6 +588,14 @@ export default{
                 date:"2018",
                 comment:"Saigon Ho-Chi-Minh.",
                 collection:""
+            },
+            c:{
+                title:"La bibliothèque des Sciences la nuit",
+                date:"2018"
+            },
+            d:{
+                title:"Nuit au palais de l’Indépendance ",
+                date:"2018"
             }
         },
         siemreap:{

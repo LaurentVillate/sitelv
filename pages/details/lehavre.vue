@@ -5,10 +5,10 @@
         </v-card>
         <Imagedetails
         image="<img alt='L'Hôtel de ville du Havre' src='/galerie/lehavre_Mairie.png' />" 
-        :titre="$t('details.lehavre.title')"
-        :formatpapier="$t('details.lehavre.papersize')"
-        :formatimage="$t('details.lehavre.imagesize')"
-        :date="$t('details.lehavre.date')"
+        :titre="$t('details.lehavre.a.title')"
+        :formatpapier="$t('details.lehavre.a.papersize')"
+        :formatimage="$t('details.lehavre.a.imagesize')"
+        :date="$t('details.lehavre.a.date')"
         commentaire=""
         >
         </Imagedetails>

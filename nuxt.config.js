@@ -1,9 +1,11 @@
+//import { asyncIterator } from "core-js/fn/symbol"//
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Séries d\'images urbaines par Laurent Villate',
+    title: 'Images et illustrations originales à la gouache. Laurent Villate explore les univers urbains et le patrimoine des villes d\'Europe et d\'Asie.',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },

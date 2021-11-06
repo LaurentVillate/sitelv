@@ -8,7 +8,7 @@
                         {{$t("home")}}
                     </NuxtLink>
                 </v-card-text>
-            </v-col>
+            </v-col>    
         </v-row>
     </v-card>
 </template>
@@ -16,8 +16,7 @@
 <script>
 
     export default{
-        name: "Retourindex",
-        
+        name: "Retourindex",        
     }
 </script>
 

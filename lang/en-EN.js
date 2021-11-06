@@ -349,24 +349,69 @@ export default{
             }
         },
         lehavre:{
-            intro:"",
-            title:"Le Havre City Hall by night",
-            papersize:"29,7 x 42 cm",
-            imagesize:"21,5 x 32 cm",
-            date:"2020",
-            comment:"Le Havre, France.",
-            collection:""
+            serie:"Le Havre",
+            a:{
+                intro:"",
+                title:"City Hall by night",
+                papersize:"29,7 x 42 cm",
+                imagesize:"21,5 x 32 cm",
+                date:"2020",
+                comment:"",
+                collection:""
+            },
+            b:{
+                title:"The Bassin du Commerce et the Cultural Center",
+                date:"2020"
+            },
+            c:{
+                title:"Saint-Joseph Church from the beach",
+                date:"2020"
+            },
         },
         londres:{
-            intro:"",
-            title:"London nocturne 2",
-            papersize:"29,7 x 42 cm",
-            imagesize:"25 x 37 cm",
-            date:"2017",
-            comment:"London, Lexham Mews.",
-            collection:""
+            serie:"London",
+            a:{
+                intro:"",
+                title:"London nocturne 2",
+                papersize:"29,7 x 42 cm",
+                imagesize:"25 x 37 cm",
+                date:"2017",
+                comment:"Londres, Lexham Mews.",
+                collection:""
+            },
+            b:{
+                title:"London nocturne 1",
+                date:"2017"
+            },
+            c:{
+                title:"London nocturne 3",
+                date:"2017"
+            },
         },
-        paris:{
+        paris1:{
+            serie:"\"Five seasons in Paris\"",
+            a:{
+                title:"Dream of snow",
+                date:"2017",
+            },
+            b:{
+                title:"Spring dress",
+                date:"2017",
+            },
+            c:{
+                title:"Summer light",
+                date:"2017",
+            },
+            d:{
+                title:"Indian summer",
+                date:"2018",
+            },
+            e:{
+                title:"Autumn wind",
+                date:"2017",
+            },
+        },
+        paris2:{
             intro:"",
             title:"Look at the pont Marie",
             papersize:"29,7 x 42 cm",
@@ -375,8 +420,29 @@ export default{
             comment:"Paris, the pont Marie seen from the quai des Célestins, facing the Saint-Louis Island.",
             collection:""
         },
+        paris2:{
+            serie:"Paris",
+            a:{
+                intro:"",
+                title:"Look at the pont Marie",
+                papersize:"29,7 x 42 cm",
+                imagesize:"19,5 x 37,8 cm",
+                date:"2018",
+                comment:"Paris, the pont Marie seen from the quai des Célestins, facing the Saint-Louis Island.",
+                collection:""
+            },
+            b:{
+                title:"Pont Marie, fog",
+                date:"2018"
+            },
+            c:{
+                title:"Passage Gustave Lepeu in the evening",
+                date:"2020"
+            },
+
+        },
         phnompenh1:{
-            serie:"36 views of Phnom Penh",
+            serie:"\"36 views of Phnom Penh\"",
             a:{
                 intro:"From the series \"36 views of Phnom Penh\", these images highlight the architecture of Vann Molyvann (1926-2017).",
                 title:"Football in front of the Sports Palace",
@@ -413,6 +479,10 @@ export default{
                 comment:"Pochentong Airport.",
                 collection:""
             },
+            e:{
+                title:"An evening in the Chaktomuk Theatre",
+                date:"2021"
+            }
         },
         phnompenh2:{
             a:{
@@ -460,6 +530,54 @@ export default{
                 comment:"",
                 collection:"(Private collection)"
             },
+            f:{
+                title:"Wat Langka from the balcony",
+                date:"2021"
+            },
+            g:{
+                title:"The Bassac River and the Monivong Bridge at Dawn",
+                date:"2015"
+            },
+            h:{
+                title:"A house on a waste ground, Sothearos Boulevard",
+                date:"2015"
+            },
+            i:{
+                title:"Monk walking in front of the Royal Palace",
+                date:"2015"
+            },
+            j:{
+                title:"The flags on the Sisowath Quay",
+                date:"2015"
+            },
+            k:{
+                title:"Wat Phnom at night",
+                date:"2015"
+            },
+            l:{
+                title:"Architectural oddity in Chroy Changvar",
+                date:"2015"
+            },
+            m:{
+                title:"The ferryboat arriving on the other side of the Mekong",
+                date:"2015"
+            },
+            n:{
+                title:"The RUPP swimming pool",
+                date:"2015"
+            },
+            o:{
+                title:"The French Embassy, Monivong Boulevard",
+                date:"2015"
+            },
+            p:{
+                title:"Night view of a house, European Union Street ",
+                date:"2015"
+            },
+            q:{
+                title:"Autoportrait en pied (on a pavement Pasteur Street)",
+                date:"2015"
+            }
         },
         saigon:{
             serie:"Saigon Ho Chi Minh",
@@ -480,6 +598,14 @@ export default{
                 date:"2018",
                 comment:"Saigon Ho-Chi-Minh.",
                 collection:""
+            },
+            c:{
+                title:"General Science Library at night",
+                date:"2018"
+            },
+            d:{
+                title:"Night in the Independence Palace",
+                date:"2018"
             }
         },
         siemreap:{

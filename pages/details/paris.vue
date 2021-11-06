@@ -5,11 +5,11 @@
         </v-card>
         <Imagedetails
         image="<img alt='Le pont Marie' src='/galerie/paris_PontMarie.png' />" 
-        :titre="$t('details.paris.title')"
-        :formatpapier="$t('details.paris.papersize')"
-        :formatimage="$t('details.paris.imagesize')"
-        :date="$t('details.paris.date')"
-        :commentaire="$t('details.paris.comment')"
+        :titre="$t('details.paris2.a.title')"
+        :formatpapier="$t('details.paris2.a.papersize')"
+        :formatimage="$t('details.paris2.a.imagesize')"
+        :date="$t('details.paris2.a.date')"
+        :commentaire="$t('details.paris2.a.comment')"
         >
         </Imagedetails>
     </div>

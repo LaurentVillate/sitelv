@@ -23,7 +23,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='L'université royale de Phnom Penh' src='/galerie/phnompenh_urpp.png' />" 
+        image="<img alt='L'université royale de Phnom Penh (RUPP)' src='/galerie/phnompenh_urpp.png' />" 
         :titre="$t('details.phnompenh1.c.title')"
         :formatpapier="$t('details.phnompenh1.c.papersize')"
         :formatimage="$t('details.phnompenh1.c.imagesize')"
@@ -33,7 +33,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='L'aéroport de Phnom Penh Pochentong' src='/galerie/phnompenh_Aeroport.png' />" 
+        image="<img alt='L'aéroport de Phnom Penh Pochentong (Phnom Penh Airport)' src='/galerie/phnompenh_Aeroport.png' />" 
         :titre="$t('details.phnompenh1.d.title')"
         :formatpapier="$t('details.phnompenh1.d.papersize')"
         :formatimage="$t('details.phnompenh1.d.imagesize')"
