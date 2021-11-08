@@ -1,19 +1,14 @@
 <template>
   <v-app>
     <!--en-tête de l'application-->
-    <v-card tile flat color="blue lighten-5" height="220" class="d-flex justify-center"> 
-      <v-card tile flat class="logo d-flex justify-center px-16 py-12" :to="localePath('/')">   
-        <img :height='size' :width='size' src='/logo_laurent.png' />
-      </v-card>  
-    </v-card>
-    <v-toolbar height="40" flat color="blue lighten-5" class="px-4 pa-sm-16">
+    <v-app-bar dense flat fixed color="blue lighten-5" class="px-4 px-sm-16">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon> 
       <v-spacer></v-spacer>
       <nuxt-link class="textorange" v-for="locale in availableLocales"
       :key="locale.code"
       :to="switchLocalePath(locale.code)">{{ locale.name }}
       </nuxt-link>
-    </v-toolbar>
+    </v-app-bar>
     <v-navigation-drawer v-model="drawer" color="blue lighten-5" absolute temporary>
       <v-list flat dense class="py-12 pl-8">
         <v-list-item-group v-model="group">
@@ -23,22 +18,18 @@
             </v-list-item-icon>
             <v-list-item-title class="textorange text-uppercase">{{$t("home")}}</v-list-item-title>
           </v-list-item>
-
           <v-list-item :to="localePath('bio')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title class="textorange text-uppercase">{{$t("about")}}</v-list-item-title>
           </v-list-item>
-
-          <v-list-item :to="localePath('cataloguedeux')">
+          <v-list-item :to="localePath('catalog1')">
             <v-list-item-icon>
               <v-icon color="orange darken-3">mdi-cards</v-icon>
             </v-list-item-icon>
             <v-list-item-title class="textorange text-uppercase">{{$t("catalogue")}}</v-list-item-title>
           </v-list-item>
-
-
           <v-list-item :to="localePath('contact')">
               <v-list-item-icon>
             <v-icon color="orange darken-3">mdi-email</v-icon>
@@ -48,6 +39,11 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
+    <v-card tile flat color="blue lighten-5" class="d-flex justify-center"> 
+      <v-card tile flat class="logo d-flex justify-center px-16 py-16">   
+        <img :height='size' :width='size' src='/logo_laurent.png' />
+      </v-card>  
+    </v-card>
 
     <!--Contenu des pages-->
     <v-main>

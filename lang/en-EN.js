@@ -2,6 +2,7 @@ export default{
     home:"home",
     about:"about",
     catalogue:"catalogue",
+    cataloguetitre:"Images catalog",
     contact:"contact",
     bio: "<p>Laurent Villate paints in gouache on paper. He creates urban views.</p><p>He lived in Cambodia for several years, where he drew and painted the series 36 views of Phnom Penh.</p><p>Even though he keeps working about Asia, he now focuses on European urban world. Employing strong colours, influenced by the “ligne claire”, he emphasizes on contrasts of atmosphere and architecture.</p>",
     credits:"<p>Texts and images : Laurent Villate</p><br><p>design and production : Image Rare, éditeur digital<p>Hosting : 1&1 Ionos</p><br><p>The contents of this site, in particular images and texts, are subject to copyright.</p>",
@@ -657,12 +658,13 @@ export default{
             }
         },    
     },
-    tab:{
+    //Pour le tableau appelant l'API//
+    /*tab:{
         titretab:"Catalogue of works",
         recherche:"Search",
         titre:"Title",
         serie:"Series or city",  
         pays:"country",      
         date:"Year",
-    },
+    },*/
 }

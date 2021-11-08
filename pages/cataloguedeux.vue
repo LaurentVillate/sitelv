@@ -476,20 +476,9 @@
                 image="<img alt='Le palais de l'Indépendance à Saigon' src='/catalog/saigon_Palais.jpg' />" 
                 :titre="$t('details.saigon.d.title')"
                 :date="$t('details.saigon.d.date')"
-                ></Catalogimage>
-                
+                ></Catalogimage> 
+            <!--COMPOSANT POUR LA PAGINATION-->              
                <Catalogpagination></Catalogpagination>
-
-                
-                
-
-
-
-            
-
-                
-
-
              </v-container>
         </v-card>  
         <v-divider color="#B3E5FC"></v-divider>

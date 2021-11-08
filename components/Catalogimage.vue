@@ -1,6 +1,6 @@
 <template>
     <div> 
-            <v-row class="textgrey">
+            <v-row class="textgrey text-caption text-sm-body-1">
                 <v-col cols="12" sm="3" class="d-flex justify-center">                   
                     <div v-html="image"></div>              
                 </v-col>

@@ -9,6 +9,11 @@
                     <v-card-text class="textblue text-caption text-sm-body-2 ml-md-12 px-md-16">
                         <div v-html="$t('bio')"></div>
                     </v-card-text>
+                    <v-card-text class="ml-md-12 px-md-16">      
+                        <NuxtLink class="textblue text-caption text-sm-body-2" to="/contact">
+                            Contact
+                        </NuxtLink>
+                    </v-card-text>
                 </v-col>
                 <v-col cols="12" md="6">
                     <v-card tile flat :height="size" :width="size" class="mx-auto mb-12 mb-sm-0">
@@ -50,6 +55,7 @@ export default {
 
 .textblue {
     font-family:'Libre Baskerville'!important;
+    text-decoration:none!important;
     color:#E3F2FD!important;
     line-height:26px!important;
     text-indent:0px;

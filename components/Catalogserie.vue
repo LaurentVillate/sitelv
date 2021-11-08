@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-card flat tile color="#B3E5FC" class="textgrey">
+        <v-card flat tile color="#B3E5FC" class="textgrey text-caption text-sm-body-1">
             <v-row>
                 <v-col cols="12" class="d-flex justify-center">
                 <b>{{serie}}</b>

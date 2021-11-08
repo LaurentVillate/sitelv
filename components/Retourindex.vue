@@ -4,8 +4,7 @@
             <v-col cols="12">
                 <v-card-text>
                     <NuxtLink class="textorange" :to="localePath('/')">
-                        <v-icon color="#EF6C00">mdi-view-grid</v-icon>
-                        {{$t("home")}}
+                        <v-icon color="#EF6C00">mdi-arrow-left-thin-circle-outline</v-icon>
                     </NuxtLink>
                 </v-card-text>
             </v-col>    

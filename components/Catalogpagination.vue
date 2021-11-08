@@ -1,37 +1,23 @@
 <template>
-    <v-row>
-        <v-col cols="12" class="d-flex justify-end">
-           <v-btn depressed small color="#B3E5FC" class="textgrey2 mx-2">
-                <v-icon color="#263238">
-                    mdi-menu-left
-                </v-icon>
-            </v-btn>
-            <v-btn depressed small color="#B3E5FC" class="textgrey2 mx-2">
-            1
-            </v-btn>
-            <v-btn depressed small color="#B3E5FC" class="textgrey2 mx-2">
-            2
-            </v-btn>
-            <v-btn depressed small color="#B3E5FC" class="textgrey2 mx-2">
-            3
-            </v-btn>
-            <v-btn depressed small color="#B3E5FC" class="textgrey2 mx-2">
-            4
-            </v-btn>
-           <v-btn depressed small color="#B3E5FC" class="textgrey2 mx-2">
-                <v-icon color="#263238">
-                    mdi-menu-right
-                </v-icon>
-            </v-btn>
-            </v-col>           
-    </v-row>
+    <div>
+        <v-btn fab depressed small color="transparent" class="textgrey2" :to="localePath('catalog1')">
+        1
+        </v-btn>
+        <v-btn fab depressed small color="transparent" class="textgrey2" :to="localePath('catalog2')">
+        2
+        </v-btn>
+        <v-btn fab depressed small color="transparent" class="textgrey2" :to="localePath('catalog3')">
+        3
+        </v-btn>
+        <v-btn fab depressed small color="transparent" class="textgrey2" :to="localePath('catalog4')">
+        4
+        </v-btn>
+    </div>
 </template>
 
 <script>
 export default{
     name:"Catalogpagination",
-    //un bouton avec n+1 et un bouton avec n-1//
-
 }
 </script>
 

@@ -3,14 +3,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Images et illustrations originales à la gouache. Laurent Villate explore les univers urbains et le patrimoine des villes d\'Europe et d\'Asie.',
+    title: 'Images et illustrations originales à la gouache',
     htmlAttrs: {
       lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Illustrations originales à la gouache. Atmosphère et architecture des villes d\'Europe et d\'Asie.' }
+      { hid: 'description', name: 'description', content: 'Laurent Villate explore les univers urbains et le patrimoine des villes d\'Europe et d\'Asie.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
