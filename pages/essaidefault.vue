@@ -1,48 +1,45 @@
 <template>
   <v-app>
-    <v-app-bar fixed dense flat color="blue lighten-5" class="px-sm-16">
-     <!--MENU--> 
-      <v-menu v-for="([text, rounded], index) in btns" :key="text" :rounded="rounded" offset-y>
-        <template v-slot:activator="{ attrs, on }">
-          <v-btn depressed color="transparent" class="textorange" v-bind="attrs" v-on="on">
-          Menu
-          </v-btn>
-        </template>      
-        <v-list>
-          <v-list-item class="textorange">
-            <v-icon small color="orange darken-3">mdi-home</v-icon>
-            <v-list-item-title class="textorange pl-2">
-            {{$t("home")}}
-            </v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-icon small color="orange darken-3">mdi-cards</v-icon>
-            <v-list-item-title class="textorange pl-2">
-            {{$t("catalogue")}}
-            </v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-icon small color="orange darken-3">mdi-account</v-icon>
-            <v-list-item-title class="textorange pl-2">
-            {{$t("about")}}
-            </v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-icon small color="orange darken-3">mdi-email</v-icon>
-            <v-list-item-title class="textorange pl-2">
-            {{$t("contact")}}
-            </v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
+    
+    <!--en-tête de l'application-->
+    <v-app-bar dense flat fixed color="blue lighten-5" class="px-4 px-sm-16">
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="orange darken-3"></v-app-bar-nav-icon> 
       <v-spacer></v-spacer>
-    <!--LANGUE-->
       <nuxt-link class="textorange" v-for="locale in availableLocales"
       :key="locale.code"
       :to="switchLocalePath(locale.code)">{{ locale.name }}
       </nuxt-link>
     </v-app-bar>
-  <!--LOGO-->     
+    <v-navigation-drawer v-model="drawer" color="blue lighten-5" absolute temporary>
+      <v-list flat dense class="py-12 pl-8">
+        <v-list-item-group v-model="group">
+          <v-list-item :to="localePath('/')">
+            <v-list-item-icon>
+               <v-icon color="orange darken-3">mdi-view-grid</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="textorange text-uppercase">{{$t("home")}}</v-list-item-title>
+          </v-list-item>
+          <v-list-item :to="localePath('bio')">
+            <v-list-item-icon>
+              <v-icon color="orange darken-3">mdi-account</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="textorange text-uppercase">{{$t("about")}}</v-list-item-title>
+          </v-list-item>
+          <v-list-item :to="localePath('catalog1')">
+            <v-list-item-icon>
+              <v-icon color="orange darken-3">mdi-cards</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="textorange text-uppercase">{{$t("catalogue")}}</v-list-item-title>
+          </v-list-item>
+          <v-list-item :to="localePath('contact')">
+              <v-list-item-icon>
+            <v-icon color="orange darken-3">mdi-email</v-icon>
+              </v-list-item-icon>
+            <v-list-item-title class="textorange text-uppercase">{{$t("contact")}}</v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
     <v-card tile flat color="blue lighten-5" class="d-flex justify-center"> 
       <v-card tile flat class="logo d-flex justify-center px-16 py-16">   
         <img :height='size' :width='size' src='/logo_laurent.png' />
@@ -97,12 +94,15 @@
 
 <script>
 export default {
-      data: () => ({
-      btns: [
-        ['Large', 'lg'],
-      ],
-      
+    data: () => ({
+      drawer: false,
+      group: null,
     }),
+    watch: {
+      group () {
+        this.drawer = false
+      },
+    },
     computed: {
       size () {
         switch (this.$vuetify.breakpoint.name) {
@@ -116,7 +116,7 @@ export default {
       availableLocales () {
     return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
   }
-  }
+    }  
 }
 </script>
 
@@ -134,8 +134,5 @@ export default {
 }
 
 </style>
-
-
-
 
 

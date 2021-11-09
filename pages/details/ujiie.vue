@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='Parking Uniclo à Ujiie (Tochigi)' src='/galerie/ujiie_Parking.png' />" 
+        image="<img alt='Parking Uniclo à Ujiie (Sakura, préfecture de Tochigi)' src='/galerie/ujiie_Parking.png' />" 
         :titre="$t('details.ujiie.title')"
         :formatpapier="$t('details.ujiie.papersize')"
         :formatimage="$t('details.ujiie.imagesize')"

@@ -209,7 +209,7 @@ export default{
                 date:"2019"
             },
         },
-        dalat:{
+        dalat1:{
             serie:"\"Nights of Dalat\"",
             a:{
                 intro:"From the series \"Nuits de Dalat\"",
@@ -232,6 +232,16 @@ export default{
                 title:"The gate of the Institut Pasteur",
                 date:"2021"
             },           
+        },
+        dalat2:{
+            serie:"Dalat",
+            title:"Blue suitcase at the Dalat Station",
+            date:"2017"
+        },
+        hakone:{
+            serie:"Hakone",
+            title:"Funicular railway station under the snow",
+            date:"2018"
         },
         hongkong:{
             serie:"\"Seven views of Hong Kong\"",
@@ -610,24 +620,47 @@ export default{
             }
         },
         siemreap:{
-            intro:"",
-            title:"King's residence in Siem Reap",
-            papersize:"29,7 x 42 cm",
-            imagesize:"29,7 x 42 cm",
-            date:"2015",
-            comment:"Siem Reap, Cambodia.",
-            collection:""
+            serie:"Siem Reap",
+            a:{
+                intro:"",
+                title:"King's residence in Siem Reap",
+                papersize:"29,7 x 42 cm",
+                imagesize:"29,7 x 42 cm",
+                date:"2015",
+                comment:"Siem Reap, Cambodia.",
+                collection:""
+            },
+            b:{
+                title:"Grand Hôtel d'Angkor (Raffles)",
+                date:"2015"
+            },
+            c:{
+                title:"Wat Damnak",
+                date:"2016"
+            },
+            d:{
+                title:"Wat Damnak, blue gate",
+                date:"2016"
+            },
         },
         tokyo:{
-            intro:"",
-            title:"Meiji Shrine",
-            papersize:"29,7 x 42 cm",
-            imagesize:"24,5 31,5 cm",
-            date:"2017",
-            comment:"Tokyo.",
-            collection:"(Private collection)"
+            serie:"Tokyo",
+            a:{
+                intro:"",
+                title:"Meiji Shrine",
+                papersize:"29,7 x 42 cm",
+                imagesize:"24,5 31,5 cm",
+                date:"2017",
+                comment:"Tokyo.",
+                collection:"(Private collection)"
+            },
+            b:{
+                title:"A little shrine in Yanaka",
+                date:"2017"
+            },
         },
         ujiie:{
+            serie:"Ujiie (Sakura)",
             intro:"",
             title:"Ujiie, parking",
             papersize:"29,7 x 42 cm",
@@ -655,6 +688,14 @@ export default{
                 date:"2021",
                 comment:"",
                 collection:"Palace of Versailles"
+            },
+            c:{
+                title:"The Marble Court at 8.13 am",
+                date:"2021"
+            },
+            d:{
+                title:"Versailles-Chantiers Station under the storm",
+                date:"2021"
             }
         },    
     },

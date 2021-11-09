@@ -4,12 +4,12 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='La résidence royale à Siem Reap' src='/galerie/siemreap_palais.png' />" 
-        :titre="$t('details.siemreap.title')"
-        :formatpapier="$t('details.siemreap.papersize')"
-        :formatimage="$t('details.siemreap.imagesize')"
-        :date="$t('details.siemreap.date')"
-        :commentaire="$t('details.siemreap.comment')"
+        image="<img alt='La résidence royale à Siem Reap' src='/galerie/siemreap_Palais.png' />" 
+        :titre="$t('details.siemreap.a.title')"
+        :formatpapier="$t('details.siemreap.a.papersize')"
+        :formatimage="$t('details.siemreap.a.imagesize')"
+        :date="$t('details.siemreap.a.date')"
+        :commentaire="$t('details.siemreap.a.comment')"
         >
         </Imagedetails>
     </div>

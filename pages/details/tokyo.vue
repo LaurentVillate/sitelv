@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='Le Temple de Meiji' src='/galerie/tokyo_Meiji.png' />" 
+        image="<img alt='Le Temple de Meiji à Tokyo' src='/galerie/tokyo_Meiji.png' />" 
         :titre="$t('details.tokyo.title')"
         :formatpapier="$t('details.tokyo.papersize')"
         :formatimage="$t('details.tokyo.imagesize')"

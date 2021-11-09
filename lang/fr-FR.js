@@ -209,7 +209,7 @@ export default{
                 date:"2019"
             },
         },
-        dalat:{
+        dalat1:{
             serie:"\"Nuits de Dalat\"",
             a:{
                 intro:"Extrait de la série \"Nuits de Dalat\"",
@@ -232,6 +232,16 @@ export default{
                 title:"Le portail de l'Institut Pasteur",
                 date:"2021"
             },           
+        },
+        dalat2:{
+            serie:"Dalat",
+            title:"Valise bleue à la gare de Dalat",
+            date:"2017"
+        },
+        hakone:{
+            serie:"Hakone",
+            title:"Station du funiculaire sous la neige",
+            date:"2018"
         },
         hongkong:{
             serie:"\"Sept vues de Hong Kong\"",
@@ -600,24 +610,47 @@ export default{
             }
         },
         siemreap:{
-            intro:"",
-            title:"La résidence du roi à Siem Reap",
-            papersize:"30,2 x 45,5 cm",
-            imagesize:"30,2 x 45,5 cm",
-            date:"2015",
-            comment:"Siem Reap, Cambodge.",
-            collection:""
+            serie:"Siem Reap",
+            a:{
+                intro:"",
+                title:"La résidence du roi à Siem Reap",
+                papersize:"30,2 x 45,5 cm",
+                imagesize:"30,2 x 45,5 cm",
+                date:"2015",
+                comment:"Siem Reap, Cambodge.",
+                collection:""
+            },
+            b:{
+                title:"Le Grand Hôtel d'Angkor",
+                date:"2015"
+            },
+            c:{
+                title:"Wat Damnak",
+                date:"2016"
+            },
+            d:{
+                title:"Wat Damnak, portail bleu",
+                date:"2016"
+            },
         },
         tokyo:{
-            intro:"",
-            title:"Le temple de Meiji",
-            papersize:"29,7 x 42 cm",
-            imagesize:"24,5 31,5 cm",
-            date:"2017",
-            comment:"Tokyo.",
-            collection:"(Collection privée)"
+            serie:"Tokyo",
+            a:{
+                intro:"",
+                title:"Le temple de Meiji",
+                papersize:"29,7 x 42 cm",
+                imagesize:"24,5 31,5 cm",
+                date:"2017",
+                comment:"Tokyo.",
+                collection:"(Collection privée)"
+            },
+            b:{
+                title:"Petit temple à Yanaka",
+                date:"2017"
+            }
         },
         ujiie:{
+            titre:"Ujiie (Sakura)",
             intro:"",
             title:"Ujiie, parking",
             papersize:"29,7 x 42 cm",
@@ -645,6 +678,14 @@ export default{
                 date:"2021",
                 comment:"Le chateau de Versailles vu depuis le parterre du Nord.",
                 collection:""
+            },
+            c:{
+                title:"La cour de Marbre à 8 heures 13",
+                date:"2021"
+            },
+            d:{
+                title:"La gare de Versailles-Chantiers sous l'orage",
+                date:"2021"
             }
         },    
     },

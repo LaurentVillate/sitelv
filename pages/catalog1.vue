@@ -139,27 +139,35 @@
                 ></Catalogimage>
             <!--DALAT-->
                 <Catalogserie
-                :serie="$t('details.dalat.serie')"
+                :serie="$t('details.dalat1.serie')"
                 ></Catalogserie> 
                 <Catalogimage
                 image="<img width='120' alt='Le lycée Yersin à Dalat' src='/galerie/dalat_Lycee.png' />" 
-                :titre="$t('details.dalat.a.title')"
-                :date="$t('details.dalat.a.date')"
+                :titre="$t('details.dalat1.a.title')"
+                :date="$t('details.dalat1.a.date')"
                 ></Catalogimage>
                 <Catalogimage
                 image="<img alt='Théâtre Hoa Binh de Dalat' src='/catalog/dalat_Theatre.jpg' />" 
-                :titre="$t('details.dalat.b.title')"
-                :date="$t('details.dalat.b.date')"
+                :titre="$t('details.dalat1.b.title')"
+                :date="$t('details.dalat1.b.date')"
                 ></Catalogimage>
                 <Catalogimage
                 image="<img alt='Palais Dinh 3 de Bao Daï' src='/catalog/dalat_Palais.jpg' />"  
-                :titre="$t('details.dalat.c.title')"
-                :date="$t('details.dalat.c.date')"
+                :titre="$t('details.dalat1.c.title')"
+                :date="$t('details.dalat1.c.date')"
                 ></Catalogimage>
                 <Catalogimage
                 image="<img alt='Institut Pasteur de Dalat' src='/catalog/dalat_Pasteur.jpg' />" 
-                :titre="$t('details.dalat.d.title')"
-                :date="$t('details.dalat.d.date')"
+                :titre="$t('details.dalat1.d.title')"
+                :date="$t('details.dalat1.d.date')"
+                ></Catalogimage>
+                <Catalogserie
+                :serie="$t('details.dalat2.serie')"
+                ></Catalogserie> 
+                <Catalogimage
+                image="<img alt='Gare de Dalat' src='/catalog/dalat_Gare.jpg' />" 
+                :titre="$t('details.dalat2.title')"
+                :date="$t('details.dalat2.date')"
                 ></Catalogimage>
             <!--PAGINATION--> 
                 <v-row>

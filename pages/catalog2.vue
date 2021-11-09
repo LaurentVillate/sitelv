@@ -7,6 +7,15 @@
         </v-card>
         <v-card tile flat color="blue lighten-5" min-height="700" class="pa-4 pa-sm-16">
             <v-container>
+            <!--HAKONE-->
+                <Catalogserie
+                :serie="$t('details.hakone.serie')"
+                ></Catalogserie>
+                <Catalogimage
+                image="<img alt='Le Funiculaire Hakone Tozan' src='/catalog/hakone_Funiculaire.jpg' />" 
+                :titre="$t('details.hakone.title')"
+                :date="$t('details.hakone.date')"
+                ></Catalogimage>
             <!--HONG KONG-->
                 <Catalogserie
                 :serie="$t('details.hongkong.serie')"
