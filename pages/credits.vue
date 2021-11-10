@@ -29,6 +29,7 @@ export default{
 .textblue {
     font-family:'Libre Baskerville'!important;
     color:#E3F2FD!important;
+    text-decoration:none!important;
     line-height:26px!important;
     text-indent:0px;
 }

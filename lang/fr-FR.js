@@ -3,9 +3,10 @@ export default{
     about:"à propos",
     catalogue:"catalogue",
     cataloguetitre:"Catalogue des images",
+    catalogueintro:"Toutes les images sont peintes sur papier A3 (sauf exception), à la gouache et à l'encre.",
     contact:"contact",
     bio: "<p>Laurent Villate peint à la gouache sur papier. Il créé des vues urbaines.</p><p>Il a vécu plusieurs années au Cambodge, où il a réalisé la série \"36 vues de Phnom Penh\".</p><p> Après avoir exploré des villes asiatiques, il s’intéresse aux univers urbains européens. Privilégiant les couleurs vives, influencé par la “ligne claire”, il met l’accent sur des contrastes d’atmosphère et d’architecture.</p>",
-    credits:"<p>Textes et images : Laurent Villate</p><br><p>Conception et réalisation : Image Rare, éditeur digital<p>Hébergement : 1&1 Ionos</p><br><p>Laurent Villate est membre de la Maison des artistes</p><p>SIRET: 814 475 463 00026</p><br><p>Les contenus de ce site, notamment les images et les textes, sont soumis au droit d'auteur.</p>",
+    credits:"<p>Textes et images : Laurent Villate</p><br><p>Conception et réalisation : <a href='http://www.imagerare.com' target='blank' style='text-decoration:none; color:inherit;''>Image Rare, éditeur digital</a></p><p>Hébergement : 1&1 Ionos</p><br><p>Laurent Villate est membre de la Maison des artistes</p><p>SIRET: 814 475 463 00026</p><br><p>Les contenus de ce site, notamment les images et les textes, sont soumis au droit d'auteur.</p>",
     form:{
         prenom:"Prénom",
         nom:"Nom",

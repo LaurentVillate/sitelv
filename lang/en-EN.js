@@ -3,9 +3,10 @@ export default{
     about:"about",
     catalogue:"catalogue",
     cataloguetitre:"Images catalog",
+    catalogueintro:"All images are painted on A3 paper (with some exceptions), with gouache and ink.",
     contact:"contact",
     bio: "<p>Laurent Villate paints in gouache on paper. He creates urban views.</p><p>He lived in Cambodia for several years, where he drew and painted the series 36 views of Phnom Penh.</p><p>Even though he keeps working about Asia, he now focuses on European urban world. Employing strong colours, influenced by the “ligne claire”, he emphasizes on contrasts of atmosphere and architecture.</p>",
-    credits:"<p>Texts and images : Laurent Villate</p><br><p>design and production : Image Rare, éditeur digital<p>Hosting : 1&1 Ionos</p><br><p>The contents of this site, in particular images and texts, are subject to copyright.</p>",
+    credits:"<p>Texts and images : Laurent Villate</p><br><p>design and production : <a href= target='blank' 'http://www.imagerare.com' target='blank' style='text-decoration:none; color:inherit;''>Image Rare, éditeur digital</a></p><p>Hosting : 1&1 Ionos</p><br><p>The contents of this site, in particular images and texts, are subject to copyright.</p>",
     form:{
         prenom:"First name",
         nom:"Last name",

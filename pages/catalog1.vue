@@ -10,6 +10,9 @@
                 <v-card-title class="textgrey">
                 <b>{{$t("cataloguetitre")}}</b>
                 </v-card-title>
+                <v-card-text class="textgrey">
+                    <i>{{$t("catalogueintro")}}</i>
+                </v-card-text>
                 <br><br>
             <!--AMIENS-->
                 <Catalogserie

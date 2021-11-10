@@ -5,12 +5,12 @@
         </v-card>
         <Imagedetails
         image="<img alt='Le Temple de Meiji à Tokyo' src='/galerie/tokyo_Meiji.png' />" 
-        :titre="$t('details.tokyo.title')"
-        :formatpapier="$t('details.tokyo.papersize')"
-        :formatimage="$t('details.tokyo.imagesize')"
-        :date="$t('details.tokyo.date')"
-        :commentaire="$t('details.tokyo.comment')"
-        :collection="$t('details.tokyo.collection')"
+        :titre="$t('details.tokyo.a.title')"
+        :formatpapier="$t('details.tokyo.a.papersize')"
+        :formatimage="$t('details.tokyo.a.imagesize')"
+        :date="$t('details.tokyo.a.date')"
+        :commentaire="$t('details.tokyo.a.comment')"
+        :collection="$t('details.tokyo.a.collection')"
         >
         </Imagedetails>
     </div>

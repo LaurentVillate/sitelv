@@ -1,9 +1,7 @@
  <template>
     <div>
         <v-divider color="#B3E5FC"></v-divider>
-        <v-card tile flat color="blue lighten-5">
-            <Retourindex
-            ></Retourindex>
+         <v-card tile flat color="blue lighten-5" class="py-sm-12">
         </v-card>
         <v-card tile flat color="blue lighten-5" min-height="700" class="pa-4 pa-sm-16">
             <v-container>

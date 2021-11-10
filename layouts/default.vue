@@ -1,33 +1,35 @@
 <template>
   <v-app>
-    <v-app-bar fixed dense flat color="blue lighten-5" class="px-sm-16">
+  <!--BARRE DE L'APPLI. FIXE.-->
+    <v-app-bar fixed flat max-width="1750" color="blue lighten-5" class="pb-6 pt-2 pr-8 pl-sm-12 pr-sm-16">
      <!--MENU--> 
-      <v-menu v-for="([text, rounded], index) in btns" :key="text" :rounded="rounded" offset-y>
+      <!--<v-menu v-for="([text, rounded], index) in btns" :key="text" :rounded="rounded" offset-y>-->
+        <v-menu  offset-y>
         <template v-slot:activator="{ attrs, on }">
           <v-btn depressed color="transparent" class="textorange" v-bind="attrs" v-on="on">
           Menu
           </v-btn>
         </template>      
-        <v-list>
-          <v-list-item class="textorange">
+        <v-list color="blue lighten-5">
+          <v-list-item :to="localePath('/')">
             <v-icon small color="orange darken-3">mdi-home</v-icon>
             <v-list-item-title class="textorange pl-2">
             {{$t("home")}}
             </v-list-item-title>
-          </v-list-item>
-          <v-list-item>
+          </v-list-item >
+          <v-list-item :to="localePath('catalog1')">
             <v-icon small color="orange darken-3">mdi-cards</v-icon>
             <v-list-item-title class="textorange pl-2">
             {{$t("catalogue")}}
             </v-list-item-title>
           </v-list-item>
-          <v-list-item>
+          <v-list-item :to="localePath('bio')">
             <v-icon small color="orange darken-3">mdi-account</v-icon>
             <v-list-item-title class="textorange pl-2">
             {{$t("about")}}
             </v-list-item-title>
           </v-list-item>
-          <v-list-item>
+          <v-list-item :to="localePath('contact')">
             <v-icon small color="orange darken-3">mdi-email</v-icon>
             <v-list-item-title class="textorange pl-2">
             {{$t("contact")}}
@@ -56,6 +58,33 @@
 
     <!--pied de page de l'application--> 
     <v-card tile flat color="blue lighten-5">
+      <v-row class="d-flex justify-center py-6">
+        <v-col cols="3">
+          <v-card-text class="d-flex justify-center">
+          <v-icon color="orange darken-3">mdi-instagram
+          </v-icon>
+          </v-card-text>
+         </v-col>
+         <v-col cols="3">
+          <v-card-text class="d-flex justify-center">
+          <v-icon color="orange darken-3">mdi-facebook
+          </v-icon>
+          </v-card-text>
+         </v-col>
+         <v-col cols="3">
+          <v-card-text class="d-flex justify-center">
+          <v-icon>
+          </v-icon>
+          </v-card-text>
+         </v-col>
+         <v-col cols="3">
+          <v-card-text class="d-flex justify-center">
+          <v-icon>
+          </v-icon>
+          </v-card-text>
+         </v-col>
+        
+      </v-row>
       <v-row class="d-flex justify-center py-6">
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
@@ -98,9 +127,9 @@
 <script>
 export default {
       data: () => ({
-      btns: [
+      /*btns: [
         ['Large', 'lg'],
-      ],
+      ],*/
       
     }),
     computed: {
