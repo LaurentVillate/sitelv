@@ -39,6 +39,16 @@
         :commentaire="$t('details.autoportrait.d.comment')"
         >
         </Imagedetails>
+    <!-- PAGE APRÈS-->
+        <v-card tile flat color="blue-grey darken-4" class=" pr-4 pr-sm-16 py-sm-12">
+            <v-row>
+                <v-col cols="12" class="d-flex justify-end">
+                    <v-btn fab plain depressed small color="transparent" :to="localePath('/details/tokyo')">
+                        <v-icon color="#E3F2FD">mdi-arrow-right-thin-circle-outline</v-icon> 
+                    </v-btn>
+                </v-col>
+            </v-row>
+        </v-card>
     </div>
 </template>
 

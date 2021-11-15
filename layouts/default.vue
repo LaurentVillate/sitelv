@@ -6,7 +6,7 @@
       <!--<v-menu v-for="([text, rounded], index) in btns" :key="text" :rounded="rounded" offset-y>-->
         <v-menu  offset-y>
         <template v-slot:activator="{ attrs, on }">
-          <v-btn depressed color="transparent" class="textorange" v-bind="attrs" v-on="on">
+          <v-btn fab depressed color="transparent" class="textorange" v-bind="attrs" v-on="on">
           Menu
           </v-btn>
         </template>      
@@ -58,17 +58,21 @@
 
     <!--pied de page de l'application--> 
     <v-card tile flat color="blue lighten-5">
-      <v-row class="d-flex justify-center py-6">
+      <v-row class="d-flex justify-center py-sm-4">
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
-          <v-icon color="orange darken-3">mdi-instagram
-          </v-icon>
+            <v-btn plain depressed color= "transparent" href="https://www.instagram.com/laurentvillateimages/" target="blank">
+              <v-icon color="orange darken-3">mdi-instagram
+              </v-icon>
+            </v-btn>
           </v-card-text>
          </v-col>
          <v-col cols="3">
           <v-card-text class="d-flex justify-center">
-          <v-icon color="orange darken-3">mdi-facebook
-          </v-icon>
+            <v-btn plain depressed color= "transparent" href="https://www.facebook.com/laurentvillateimages" target="blank">
+              <v-icon color="orange darken-3">mdi-facebook
+              </v-icon>
+            </v-btn>
           </v-card-text>
          </v-col>
          <v-col cols="3">
@@ -82,10 +86,9 @@
           <v-icon>
           </v-icon>
           </v-card-text>
-         </v-col>
-        
+         </v-col>        
       </v-row>
-      <v-row class="d-flex justify-center py-6">
+      <v-row class="d-flex justify-center py-sm-4">
         <v-col cols="3">
           <v-card-text class="d-flex justify-center">
             <NuxtLink class="textorange" :to="localePath('/')">
@@ -102,7 +105,7 @@
         </v-col>
         <v-col cols="3">
           <v-card-text class="textorange d-flex justify-center">      
-            <NuxtLink class="textorange" to="/contact">
+            <NuxtLink class="textorange" :to="localePath('contact')">
               <v-icon color="orange darken-3">mdi-email</v-icon>
             </NuxtLink>
           </v-card-text>

@@ -1,10 +1,10 @@
 export default{   
-    home:"accueil",
-    about:"à propos",
-    catalogue:"catalogue",
+    home:"Accueil",
+    about:"À propos",
+    catalogue:"Catalogue",
     cataloguetitre:"Catalogue des images",
     catalogueintro:"Toutes les images sont peintes sur papier A3 (sauf exception), à la gouache et à l'encre.",
-    contact:"contact",
+    contact:"Contact",
     bio: "<p>Laurent Villate peint à la gouache sur papier. Il créé des vues urbaines.</p><p>Il a vécu plusieurs années au Cambodge, où il a réalisé la série \"36 vues de Phnom Penh\".</p><p> Après avoir exploré des villes asiatiques, il s’intéresse aux univers urbains européens. Privilégiant les couleurs vives, influencé par la “ligne claire”, il met l’accent sur des contrastes d’atmosphère et d’architecture.</p>",
     credits:"<p>Textes et images : Laurent Villate</p><br><p>Conception et réalisation : <a href='http://www.imagerare.com' target='blank' style='text-decoration:none; color:inherit;''>Image Rare, éditeur digital</a></p><p>Hébergement : 1&1 Ionos</p><br><p>Laurent Villate est membre de la Maison des artistes</p><p>SIRET: 814 475 463 00026</p><br><p>Les contenus de ce site, notamment les images et les textes, sont soumis au droit d'auteur.</p>",
     form:{
@@ -29,7 +29,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"19,5 x 39,5 cm",
                 date:"2019",
-                comment:"Amiens, haut de la rue de Cottenchy, vue du boulevard de Bapaume.",
+                comment:"Amiens, la rue de Cottenchy vue du boulevard de Bapaume.",
                 collection:""
             },
             b:{
@@ -159,11 +159,11 @@ export default{
             },
             b:{
                 intro:"",
-                title:"Autoportrait en pied",
+                title:"Autoportrait en pied (Sur un trottoir de la rue Pasteur à Phnom Penh)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 x 31,5 cm",
                 date:"2014",
-                comment:"Extrait de la série \"36 vues de Phnom Penh\". Sur un trottoir de la rue Pasteur (rue 51) à Phnom Penh.",
+                comment:"Extrait de la série \"36 vues de Phnom Penh\".",
                 collection:""
             },
             c:{
@@ -293,7 +293,7 @@ export default{
         hue:{
             serie:"\"Fumeurs de Hué\"",
             a:{
-                intro:"Images extraites de la serie \"Fumeurs de Hué\".",
+                intro:"Images extraites de la série \"Fumeurs de Hué\".",
                 title:"Entre deux arbres",
                 papersize:"42 x 29,7 cm",
                 imagesize:"37,8 x 27,5 cm",
@@ -456,7 +456,7 @@ export default{
             },
             b:{
                 intro:"",
-                title:"L'arbre du voyageur et le monument de l'indépendance",
+                title:"L'arbre du voyageur et le monument de l'Indépendance",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 31,5 cm",
                 date:"2014",
@@ -668,7 +668,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"25,5 x 34 cm",
                 date:"2021",
-                comment:"Le chateau de Versailles vu depuis le parterre du Nord.",
+                comment:"Le château de Versailles vu depuis le parterre du Nord.",
                 collection:""
             },
             b:{
@@ -677,7 +677,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"25,5 x 34 cm",
                 date:"2021",
-                comment:"Le chateau de Versailles vu depuis le parterre du Nord.",
+                comment:"Le château de Versailles vu depuis le parterre du Nord.",
                 collection:""
             },
             c:{

@@ -1,5 +1,5 @@
 <template>
-    <v-card flat tile color="blue-grey darken-4" min-height="700" class=" px-4 px-sm-16">
+    <v-card flat tile color="blue-grey darken-4" min-height="600" class=" px-4 px-sm-16">
         <v-row>
             <v-col cols="12" sm="6">
             </v-col>
@@ -20,7 +20,7 @@
                 <v-card-title class="textbluetitre text-body-2 text-sm-h5">
                     <p>{{titre}}</p>
                 </v-card-title>
-                <v-divider color="#BBDEFB"></v-divider>
+                <v-divider class="d-none d-md-flex" color="#BBDEFB"></v-divider>
                 <v-card-text class="textblue text-caption text-sm-body-2">
                     <br><br>                   
                     <p>{{$t("details.type")}}</p>
@@ -31,7 +31,8 @@
                     <p>{{commentaire}}</p>
                     <br>
                     <p><i>{{collection}}</i></p> 
-                </v-card-text>  
+                </v-card-text> 
+                <v-divider class="d-flex d-md-none" color="#BBDEFB"></v-divider> 
                 </v-card>                     
             </v-col>
         </v-row>

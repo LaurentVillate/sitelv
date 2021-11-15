@@ -10,14 +10,19 @@
                         <div v-html="$t('bio')"></div>
                     </v-card-text>
                     <v-card-text class="ml-md-12 px-md-16">      
+                        <NuxtLink class="textblue text-caption text-sm-body-2" to="/catalog1">
+                            <b>{{$t("cataloguetitre")}}</b>
+                        </NuxtLink>
+                    </v-card-text>
+                    <v-card-text class="ml-md-12 px-md-16">      
                         <NuxtLink class="textblue text-caption text-sm-body-2" to="/contact">
-                            Contact
+                            <b>{{$t("contact")}}</b>
                         </NuxtLink>
                     </v-card-text>
                 </v-col>
                 <v-col cols="12" md="6">
                     <v-card tile flat :height="size" :width="size" class="mx-auto mb-12 mb-sm-0">
-                        <img :height='size' :width='size' alt="Laurent Villate" src='/bio/esquisse_Angkor.JPG' />
+                        <img :height='size' :width='size' alt="Laurent Villate" src='/bio/laurent_Mainsjointes.JPG' />
                     </v-card>              
                 </v-col>   
             </v-row>

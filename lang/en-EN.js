@@ -1,10 +1,10 @@
 export default{   
-    home:"home",
-    about:"about",
-    catalogue:"catalogue",
+    home:"Home",
+    about:"About",
+    catalogue:"Catalog",
     cataloguetitre:"Images catalog",
     catalogueintro:"All images are painted on A3 paper (with some exceptions), with gouache and ink.",
-    contact:"contact",
+    contact:"Contact",
     bio: "<p>Laurent Villate paints in gouache on paper. He creates urban views.</p><p>He lived in Cambodia for several years, where he drew and painted the series 36 views of Phnom Penh.</p><p>Even though he keeps working about Asia, he now focuses on European urban world. Employing strong colours, influenced by the “ligne claire”, he emphasizes on contrasts of atmosphere and architecture.</p>",
     credits:"<p>Texts and images : Laurent Villate</p><br><p>design and production : <a href= target='blank' 'http://www.imagerare.com' target='blank' style='text-decoration:none; color:inherit;''>Image Rare, éditeur digital</a></p><p>Hosting : 1&1 Ionos</p><br><p>The contents of this site, in particular images and texts, are subject to copyright.</p>",
     form:{
@@ -159,11 +159,11 @@ export default{
             },
             b:{
                 intro:"",
-                title:"Autoportrait en pied",
+                title:"Autoportrait en pied (On a pavement in Pasteur Street, Phnom Penh)",
                 papersize:"29,7 x 42 cm",
                 imagesize:"24,5 x 31,5 cm",
                 date:"2014",
-                comment:"From the series \"36 views of Phnom Penh\". On a pavement in Pasteur Street (Street 51), Phnom Penh.",
+                comment:"From the series \"36 views of Phnom Penh\".",
                 collection:""
             },
             c:{
@@ -364,7 +364,7 @@ export default{
             serie:"Le Havre",
             a:{
                 intro:"",
-                title:"City Hall by night",
+                title:"Le Havre City Hall by night",
                 papersize:"29,7 x 42 cm",
                 imagesize:"21,5 x 32 cm",
                 date:"2020",
@@ -388,7 +388,7 @@ export default{
                 papersize:"29,7 x 42 cm",
                 imagesize:"25 x 37 cm",
                 date:"2017",
-                comment:"Londres, Lexham Mews.",
+                comment:"London, Lexham Mews.",
                 collection:""
             },
             b:{
@@ -667,7 +667,7 @@ export default{
             papersize:"29,7 x 42 cm",
             imagesize:"24,5 31,5 cm",
             date:"2018",
-            comment:"Ujiie, Japon.",
+            comment:"Ujiie, Japan.",
             collection:""
         },
         versailles:{
