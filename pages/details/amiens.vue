@@ -1,7 +1,9 @@
 <template>
     <div>
+        <!--Bouton de retour à la page d'accueil-->
         <v-card tile flat color="blue-grey darken-4">
         <Retourindex></Retourindex>
+         <!--Les différentes images et leurs infos détaillées, sélectionnées pour la page. Appel au composant imagedetails-->
         </v-card>
         <Imagedetails
         image="<img alt='Amiens rue de Cottenchy' src='/galerie/amiens_Cottenchy.png' />" 
@@ -30,7 +32,7 @@
         :commentaire="$t('details.amiens.c.comment')"
         >
         </Imagedetails>
-    <!-- PAGE AVANT ET PAGE APRÈS-->
+    <!-- 2 boutons pour page avant et page après-->
         <v-card tile flat color="blue-grey darken-4" class=" px-4 px-sm-16 py-sm-12">
             <v-row>
                 <v-col cols="12" class="d-flex justify-end">

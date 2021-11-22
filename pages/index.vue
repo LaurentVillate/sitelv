@@ -1,7 +1,7 @@
 <template>
     <v-card tile flat color="blue lighten-5" class="px-4 px-sm-8">       
           <v-row class="py-6 py-sm-12">
-            <v-col v-for="galerie in galeries" class="d-flex child-flex" cols="6" md="3">
+            <v-col v-for="(galerie, index) in galeries" v-bind:key="index" class="d-flex child-flex" cols="6" md="3">
               <v-card tile flat :to="localePath(galerie.lien)" nuxt>
                 <v-img :src="galerie.image" :alt="galerie.alt" aspect-ratio="1" class="blue lighten-5">             
                   <template v-slot:placeholder>

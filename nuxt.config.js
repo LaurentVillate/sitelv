@@ -3,7 +3,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Images et illustrations originales à la gouache',
+    title: 'Laurent Villate - Images et illustrations originales à la gouache',
     htmlAttrs: {
       lang: 'fr'
     },
@@ -16,15 +16,15 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href:"https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;500&family=Roboto:wght@300&display=swap"
+        href: "https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;500&family=Roboto:wght@300&display=swap"
       },
       {
         rel: 'stylesheet',
-        href:"https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+        href: "https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       },
       {
         rel: 'stylesheet',
-        href:"https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
+        href: "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
       },
     ]
   },
@@ -63,11 +63,11 @@ export default {
     }],
     [
       '@nuxtjs/i18n',
-      { 
+      {
         defaultLocale: 'fr',
         locales: [
           {
-            code: 'en', 
+            code: 'en',
             file: 'en-EN.js',
             name: 'English'
           },
@@ -76,13 +76,17 @@ export default {
             file: 'fr-FR.js',
             name: 'Français'
           },
-            ],
+        ],
         lazy: true,
         langDir: "lang/",
-      },      
-    ]      
+      },
+    ]
   ],
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  loading: {
+    color: 'orange',
+    height: '5px'
   }
 }
