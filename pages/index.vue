@@ -22,7 +22,7 @@ export default {
     data () {
       return{
           galeries: [
-            {image: "/galerie/hue_Autoportrait.png", lien:"/details/autoportrait", alt:"En tong sur un terrain vague à Hué"},
+            {image: "galerie/hue_Autoportrait.png", lien:"/details/autoportrait", alt:"En tong sur un terrain vague à Hué"},
             {image: "/galerie/tokyo_Meiji.png", lien:"/details/tokyo", alt:"Vue du Meiji-Jingu dans le parc de Yoyogi à Tokyo. Au loin, le le NTT Docomo Yoyogi Building."},
             {image: "/galerie/phnompenh_Stade.png", lien:"/details/phnompenh1", alt:"Un match de foot devant le palais des Sports, dans le complexe du Stade Olympique de Phnom Penh (architecte: Vann Molyvann)."},
             {image: "/galerie/saigon_Moto.png", lien:"/details/saigon", alt:"Une moto devant un mur jaune et des drapeaux rouges à Saigon Ho Chi Minh."},

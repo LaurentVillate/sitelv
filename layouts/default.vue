@@ -65,7 +65,7 @@
     <v-card tile flat color="blue lighten-5" class="d-flex justify-center">
       <v-card tile flat class="logo d-flex justify-center px-16 py-16">
         <!--La taille du logo est différente selon la taille de l'écran. Cf script, computed-->
-        <img :height="size" :width="size" src="/logo_laurent.png" />
+        <img :height="size" :width="size" src="logo_laurent.png" />
       </v-card>
     </v-card>
 
