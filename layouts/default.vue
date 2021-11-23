@@ -133,7 +133,7 @@
         </v-col>
         <v-col cols="3">
           <v-card-text class="textorange d-flex justify-center">
-            <NuxtLink class="textorange" :to="localePath('contact')">
+            <NuxtLink class="textorange" :to="localePath('contactstatic')">
               <v-icon color="orange darken-3">mdi-email</v-icon>
             </NuxtLink>
           </v-card-text>
