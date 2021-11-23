@@ -51,7 +51,7 @@
               :height="size"
               :width="size"
               alt="Laurent Villate"
-              src="/bio/laurent_Mains.JPG"
+              src="bio/laurent_Mains.JPG"
             />
           </v-card>
         </v-col>

@@ -1,7 +1,10 @@
-//import { asyncIterator } from "core-js/fn/symbol"//
+
 
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  target:'static',
+  router: {
+    base:'/sitelv/'
+  },
   head: {
     title: 'Laurent Villate - Images et illustrations originales à la gouache',
     htmlAttrs: {
