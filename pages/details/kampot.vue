@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='Maison coloniale à Kampot' src='/galerie/kampot_Linge.png' />" 
+        image="<img alt='Maison coloniale à Kampot' src='galerie/kampot_Linge.png' />" 
         :titre="$t('details.kampot.a.title')"
         :formatpapier="$t('details.kampot.a.papersize')"
         :formatimage="$t('details.kampot.a.imagesize')"

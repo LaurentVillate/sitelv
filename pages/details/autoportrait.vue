@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img src='/galerie/hue_Autoportrait.png' />" 
+        image="<img src='galerie/hue_Autoportrait.png' />" 
         :titre="$t('details.autoportrait.a.title')"
         :formatpapier="$t('details.autoportrait.a.papersize')"
         :formatimage="$t('details.autoportrait.a.imagesize')"
@@ -13,7 +13,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/phnompenh_Autoportrait.png' />" 
+        image="<img src='galerie/phnompenh_Autoportrait.png' />" 
         :titre="$t('details.autoportrait.b.title')"
         :formatpapier="$t('details.autoportrait.b.papersize')"
         :formatimage="$t('details.autoportrait.b.imagesize')"
@@ -22,7 +22,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/hongkong_Autoportrait.png' />" 
+        image="<img src='galerie/hongkong_Autoportrait.png' />" 
         :titre="$t('details.autoportrait.c.title')"
         :formatpapier="$t('details.autoportrait.c.papersize')"
         :formatimage="$t('details.autoportrait.c.imagesize')"
@@ -31,7 +31,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img src='/galerie/paris_Autoportrait.png' />" 
+        image="<img src='galerie/paris_Autoportrait.png' />" 
         :titre="$t('details.autoportrait.d.title')"
         :formatpapier="$t('details.autoportrait.d.papersize')"
         :formatimage="$t('details.autoportrait.c.imagesize')"

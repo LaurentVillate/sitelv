@@ -52,7 +52,7 @@
           :date="$t('details.amiens.e.date')"
         ></Catalogimage>
         <Catalogimage
-          image="<img alt='Amiens' src='catalog/amiens_Alsacelorraine.jpg' />"
+          image="<img alt='Amiens' src='catalog/amiens_AlsaceLorraine.jpg' />"
           :titre="$t('details.amiens.f.title')"
           :date="$t('details.amiens.f.date')"
         ></Catalogimage>
@@ -84,7 +84,7 @@
           :date="$t('details.amsterdam.d.date')"
         ></Catalogimage>
         <Catalogimage
-          image="<img alt='Amsterdam Lijnbaansgracht' src='catalog/amsterdam_vent.jpg' />"
+          image="<img alt='Amsterdam Lijnbaansgracht' src='catalog/amsterdam_Vent.jpg' />"
           :titre="$t('details.amsterdam.e.title')"
           :date="$t('details.amsterdam.e.date')"
         ></Catalogimage>

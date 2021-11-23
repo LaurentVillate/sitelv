@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='Le Bayon à Angkor' src='/galerie/angkor_Bayon.png' />" 
+        image="<img alt='Le Bayon à Angkor' src='galerie/angkor_Bayon.png' />" 
         :titre="$t('details.angkor.a.title')"
         :formatpapier="$t('details.angkor.a.papersize')"
         :formatimage="$t('details.angkor.a.imagesize')"
@@ -13,7 +13,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Le Bayon à Angkor' src='/galerie/angkor_Bayonjour.png' />" 
+        image="<img alt='Le Bayon à Angkor' src='galerie/angkor_Bayonjour.png' />" 
         :titre="$t('details.angkor.b.title')"
         :formatpapier="$t('details.angkor.b.papersize')"
         :formatimage="$t('details.angkor.b.imagesize')"

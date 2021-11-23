@@ -5,7 +5,7 @@
         </v-card>
         <Imagedetails
         :intro="$t('details.dalat1.a.intro')"
-        image="<img alt='Le lycée Yersin à Dalat' src='/galerie/dalat_Lycee.png' />" 
+        image="<img alt='Le lycée Yersin à Dalat' src='galerie/dalat_Lycee.png' />" 
         :titre="$t('details.dalat1.a.title')"
         :formatpapier="$t('details.dalat1.a.papersize')"
         :formatimage="$t('details.dalat1.a.imagesize')"

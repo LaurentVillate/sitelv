@@ -6,7 +6,7 @@
          <!--Les différentes images et leurs infos détaillées, sélectionnées pour la page. Appel au composant imagedetails-->
         </v-card>
         <Imagedetails
-        image="<img alt='Amiens rue de Cottenchy' src='/galerie/amiens_Cottenchy.png' />" 
+        image="<img alt='Amiens rue de Cottenchy' src='galerie/amiens_Cottenchy.png' />" 
         :titre="$t('details.amiens.a.title')"
         :formatpapier="$t('details.amiens.a.papersize')"
         :formatimage="$t('details.amiens.a.imagesize')"
@@ -15,7 +15,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Amiens la tour Perret' src='/galerie/amiens_Bapaume.png' />" 
+        image="<img alt='Amiens la tour Perret' src='galerie/amiens_Bapaume.png' />" 
         :titre="$t('details.amiens.b.title')"
         :formatpapier="$t('details.amiens.b.papersize')"
         :formatimage="$t('details.amiens.b.imagesize')"
@@ -24,7 +24,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Cathedrale d'Amiens' src='/galerie/amiens_Neige.png' />" 
+        image="<img alt='Cathedrale d'Amiens' src='galerie/amiens_Neige.png' />" 
         :titre="$t('details.amiens.c.title')"
         :formatpapier="$t('details.amiens.c.papersize')"
         :formatimage="$t('details.amiens.c.imagesize')"

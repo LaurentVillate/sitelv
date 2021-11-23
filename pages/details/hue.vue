@@ -5,7 +5,7 @@
         </v-card>
         <Imagedetails
         :intro="$t('details.hue.a.intro')"
-        image="<img alt='Maison et clôture à Hué' src='/galerie/hue_Arbres.png' />" 
+        image="<img alt='Maison et clôture à Hué' src='galerie/hue_Arbres.png' />" 
         :titre="$t('details.hue.a.title')"
         :formatpapier="$t('details.hue.a.papersize')"
         :formatimage="$t('details.hue.a.imagesize')"
@@ -14,7 +14,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Maison et clôture à Hué' src='/galerie/hue_Cloture.png' />" 
+        image="<img alt='Maison et clôture à Hué' src='galerie/hue_Cloture.png' />" 
         :titre="$t('details.hue.b.title')"
         :formatpapier="$t('details.hue.b.papersize')"
         :formatimage="$t('details.hue.b.imagesize')"

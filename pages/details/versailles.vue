@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='Chateau de Versailles de nuit' src='/galerie/versailles_Chateau.png' />" 
+        image="<img alt='Chateau de Versailles de nuit' src='galerie/versailles_Chateau.png' />" 
         :titre="$t('details.versailles.a.title')"
         :formatpapier="$t('details.versailles.a.papersize')"
         :formatimage="$t('details.versailles.a.imagesize')"
@@ -13,7 +13,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Le Chateau de Versailles aile nord' src='/galerie/versailles_Chateaujour.png' />" 
+        image="<img alt='Le Chateau de Versailles aile nord' src='galerie/versailles_Chateaujour.png' />" 
         :titre="$t('details.versailles.b.title')"
         :formatpapier="$t('details.versailles.b.papersize')"
         :formatimage="$t('details.versailles.b.imagesize')"

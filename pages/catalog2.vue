@@ -78,7 +78,7 @@
                 :date="$t('details.autoportrait.a.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img alt='Stade olympique à Hué' src='catalog/hue_stade.jpg' />" 
+                image="<img alt='Stade olympique à Hué' src='catalog/hue_Stade.jpg' />" 
                 :titre="$t('details.hue.d.title')"
                 :date="$t('details.hue.d.date')"
                 ></Catalogimage>
@@ -93,7 +93,7 @@
                 :date="$t('details.hue.f.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img alt='Palais de la reine-mère (Dien Tho) à Hué' src='catalog/hue_etoiles.jpg' />" 
+                image="<img alt='Palais de la reine-mère (Dien Tho) à Hué' src='catalog/hue_Etoiles.jpg' />" 
                 :titre="$t('details.hue.g.title')"
                 :date="$t('details.hue.g.date')"
                 ></Catalogimage>
@@ -102,12 +102,12 @@
                 :serie="$t('details.kampot.serie')"
                 ></Catalogserie>
                 <Catalogimage
-                image="<img width='120' alt='Maison coloniale à Kampot' src='galerie/kampot_linge.png' />" 
+                image="<img width='120' alt='Maison coloniale à Kampot' src='galerie/kampot_Linge.png' />" 
                 :titre="$t('details.kampot.a.title')"
                 :date="$t('details.kampot.a.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img alt='Pont à Kampot' src='/catalog/kampot_Pont.jpg' />" 
+                image="<img alt='Pont à Kampot' src='catalog/kampot_Pont.jpg' />" 
                 :titre="$t('details.kampot.b.title')"
                 :date="$t('details.kampot.b.date')"
                 ></Catalogimage>

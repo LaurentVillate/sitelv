@@ -30,7 +30,7 @@
                 :date="$t('details.paris1.d.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img alt='Les feuilles mortes à Paris en automne' src='catalog/paris_automne.jpg' />" 
+                image="<img alt='Les feuilles mortes à Paris en automne' src='catalog/paris_Automne.jpg' />" 
                 :titre="$t('details.paris1.e.title')"
                 :date="$t('details.paris1.e.date')"
                 ></Catalogimage>
@@ -128,7 +128,7 @@
                 :date="$t('details.phnompenh2.k.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img alt='L'ambassade de France à Phnom Penh' src='catalog/phnompenh_ambassade.jpg' />" 
+                image="<img alt='L'ambassade de France à Phnom Penh' src='catalog/phnompenh_Ambassade.jpg' />" 
                 :titre="$t('details.phnompenh2.o.title')"
                 :date="$t('details.phnompenh2.o.date')"
                 ></Catalogimage>

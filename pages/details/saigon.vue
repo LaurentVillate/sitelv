@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img src='/galerie/saigon_Moto.png' />" 
+        image="<img src='galerie/saigon_Moto.png' />" 
         :titre="$t('details.saigon.a.title')"
         :formatpapier="$t('details.saigon.a.papersize')"
         :formatimage="$t('details.saigon.a.imagesize')"
@@ -13,7 +13,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Le marché Ben Thanh à Saigon' src='/galerie/saigon_Marche.png' />" 
+        image="<img alt='Le marché Ben Thanh à Saigon' src='galerie/saigon_Marche.png' />" 
         :titre="$t('details.saigon.b.title')"
         :formatpapier="$t('details.saigon.b.papersize')"
         :formatimage="$t('details.saigon.b.imagesize')"

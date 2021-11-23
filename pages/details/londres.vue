@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img src='/galerie/londres_Lexham.png' />" 
+        image="<img src='galerie/londres_Lexham.png' />" 
         :titre="$t('details.londres.a.title')"
         :formatpapier="$t('details.londres.a.papersize')"
         :formatimage="$t('details.londres.a.imagesize')"

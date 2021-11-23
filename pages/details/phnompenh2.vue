@@ -5,7 +5,7 @@
         </v-card>
         <Imagedetails
         :intro="$t('details.phnompenh2.a.intro')"
-        image="<img alt='Le marché central de Phnom Penh' src='/galerie/phnompenh_Marche.png' />" 
+        image="<img alt='Le marché central de Phnom Penh' src='galerie/phnompenh_Marche.png' />" 
         :titre="$t('details.phnompenh2.a.title')"
         :formatpapier="$t('details.phnompenh2.a.papersize')"
         :formatimage="$t('details.phnompenh2.a.imagesize')"
@@ -14,7 +14,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Auditorium de l'URPP ( architecte: Leroy et Mondet)' src='/galerie/phnompenh_Hallurpp.png' />" 
+        image="<img alt='Auditorium de l'URPP ( architecte: Leroy et Mondet)' src='galerie/phnompenh_Hallurpp.png' />" 
         :titre="$t('details.phnompenh2.b.title')"
         :formatpapier="$t('details.phnompenh2.b.papersize')"
         :formatimage="$t('details.phnompenh2.b.imagesize')"
@@ -24,7 +24,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Le White Building à Phnom Penh' src='/galerie/phnompenh_Whitebuilding.png' />" 
+        image="<img alt='Le White Building à Phnom Penh' src='galerie/phnompenh_Whitebuilding.png' />" 
         :titre="$t('details.phnompenh2.c.title')"
         :formatpapier="$t('details.phnompenh2.c.papersize')"
         :formatimage="$t('details.phnompenh2.c.imagesize')"
@@ -34,7 +34,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Le Musée national de Phnom Penh' src='/galerie/phnompenh_Musee.png' />"
+        image="<img alt='Le Musée national de Phnom Penh' src='galerie/phnompenh_Musee.png' />"
          :titre="$t('details.phnompenh2.d.title')"
         :formatpapier="$t('details.phnompenh2.d.papersize')"
         :formatimage="$t('details.phnompenh2.d.imagesize')"
@@ -44,7 +44,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='La tour Vattanac à Phnom Penh' src='/galerie/phnompenh_Vattanac.png' />"
+        image="<img alt='La tour Vattanac à Phnom Penh' src='galerie/phnompenh_Vattanac.png' />"
          :titre="$t('details.phnompenh2.e.title')"
         :formatpapier="$t('details.phnompenh2.e.papersize')"
         :formatimage="$t('details.phnompenh2.e.imagesize')"
