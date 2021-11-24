@@ -20,12 +20,10 @@
             <v-row class="pa-sm-16">
               <v-col cols="12">
                 <v-text-field
-                  solo
-                  flat
-                  type="hidden"
+                  disabled
                   color="blue lighten-5"
                   name="_subject"
-                  value="Message de laurentvillate.com"
+                  value="Contact Laurent Villate"
                 ></v-text-field>
               </v-col>
             </v-row>
