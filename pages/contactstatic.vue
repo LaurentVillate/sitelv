@@ -18,19 +18,22 @@
         <v-form>
           <v-container>
             <v-row class="pa-sm-16">
-              <v-col cols="12">
+              <v-col cols="12" md="6">
                 <v-text-field
-                  disabled
-                  color="blue lighten-5"
+                  readonly
+                  class="textorange"
                   name="_subject"
                   value="Contact Laurent Villate"
                 ></v-text-field>
+              </v-col>
+              <v-col cols="12" md="6">
               </v-col>
             </v-row>
             <v-row class="pa-sm-16">
               <v-col cols="12">
                 <v-text-field
                   class="textgrey"
+                  outlined
                   type="email"
                   name="_replyto"
                   :placeholder="$t('form.mail')"
