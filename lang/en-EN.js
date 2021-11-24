@@ -10,8 +10,8 @@ export default{
     form:{
         prenom:"First name",
         nom:"Last name",
-        mail:"E-mail",
-        message:"Message",
+        mail:"Your e-mail",
+        message:"Your message",
         envoi:"Send",
         annulation:"Cancel",
         succes:"Message sent",

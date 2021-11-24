@@ -21,7 +21,8 @@
               <v-col cols="12" md="6">
                 <v-text-field
                   readonly
-                  class="textorange"
+                  class="textgrey"
+                  color="blue lighten-5"
                   name="_subject"
                   value="Contact Laurent Villate"
                 ></v-text-field>
