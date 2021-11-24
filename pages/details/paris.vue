@@ -4,7 +4,7 @@
         <Retourindex></Retourindex>
         </v-card>
         <Imagedetails
-        image="<img alt='Le pont Marie' src='galerie/paris_PontMarie.png' />" 
+        image="<img alt='Le pont Marie' src='galerie/paris_Pontmarie.png' />" 
         :titre="$t('details.paris2.a.title')"
         :formatpapier="$t('details.paris2.a.papersize')"
         :formatimage="$t('details.paris2.a.imagesize')"

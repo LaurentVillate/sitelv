@@ -87,7 +87,7 @@
               href="https://www.instagram.com/laurentvillateimages/"
               target="blank"
             >
-              <v-icon color="orange darken-3">mdi-instagram </v-icon>
+              <v-icon color="orange accent-4">mdi-instagram </v-icon>
             </v-btn>
           </v-card-text>
         </v-col>
@@ -100,7 +100,7 @@
               href="https://www.facebook.com/laurentvillateimages"
               target="blank"
             >
-              <v-icon color="orange darken-3">mdi-facebook </v-icon>
+              <v-icon color="orange accent-4">mdi-facebook </v-icon>
             </v-btn>
           </v-card-text>
         </v-col>

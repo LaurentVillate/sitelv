@@ -13,7 +13,7 @@
               color="transparent"
               @click="retour"
             >
-              <v-icon color="orange darken-3">mdi-arrow-left-thin-circle-outline</v-icon>
+              <v-icon color="orange accent-4">mdi-arrow-left-thin-circle-outline</v-icon>
             </v-btn>
                 </v-card-text>
             </v-col>    
