@@ -76,7 +76,7 @@
             >
               {{ $t("form.envoi") }}
             </v-btn>
-            <!--Bouton Envoyer. Au clic: fonction cancel.-->
+            <!--Bouton annuler. Au clic: fonction cancel.-->
             <v-btn
               elevation="0"
               color="blue-grey darken-4"
