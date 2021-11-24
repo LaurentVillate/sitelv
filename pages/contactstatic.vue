@@ -17,14 +17,18 @@
       <div>
         <v-form>
           <v-container>
-            <v-text-field
-              solo
-              flat
-              type="hidden"
-              color="transparent"
-              name="_subject"
-              value="Message de laurentvillate.com"
-            ></v-text-field>
+            <v-row class="pa-sm-16">
+              <v-col cols="12">
+                <v-text-field
+                  solo
+                  flat
+                  type="hidden"
+                  color="blue lighten-5"
+                  name="_subject"
+                  value="Message de laurentvillate.com"
+                ></v-text-field>
+              </v-col>
+            </v-row>
             <v-row class="pa-sm-16">
               <v-col cols="12">
                 <v-text-field
@@ -76,14 +80,13 @@
 
 <script>
 export default {
-methods: {
-    
+  methods: {
     //Fonction cancel: Retour à l'index//
     cancel() {
       this.$router.go(-1);
     },
   },
-}
+};
 </script>
 
 <style scoped>
