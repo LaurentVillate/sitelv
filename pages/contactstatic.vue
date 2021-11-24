@@ -15,7 +15,9 @@
     >
       <!--Formulaire de contact-->
       <div>
-        <v-form>
+        <v-form
+        action="https://formspree.io/f/xeqnjoda"
+        method="POST">
           <v-container>
             <v-row class="pa-sm-16">
               <v-col cols="12" md="6">
@@ -27,8 +29,7 @@
                   value="Contact Laurent Villate"
                 ></v-text-field>
               </v-col>
-              <v-col cols="12" md="6">
-              </v-col>
+              <v-col cols="12" md="6"> </v-col>
             </v-row>
             <v-row class="pa-sm-16">
               <v-col cols="12">
@@ -72,6 +73,24 @@
                 </v-btn>
               </v-col>
             </v-row>
+            <v-dialog v-model="dialog" persistent max-width="400">
+              <v-card color="blue lighten-5" class="pa-4">
+                <v-icon
+                  color="orange darken-3"
+                  class="d-flex justify-center pa-12"
+                >
+                  mdi-emoticon-happy
+                </v-icon>
+                <v-card-text class="textgrey d-flex justify-center">
+                  {{ $t("form.succes") }}
+                </v-card-text>
+                <v-card-text class="d-flex justify-end pt-12">
+                  <NuxtLink class="textorange" :to="localePath('/')">
+                    <v-icon color="orange darken-3"> mdi-close-circle </v-icon>
+                  </NuxtLink>
+                </v-card-text>
+              </v-card>
+            </v-dialog>
           </v-container>
         </v-form>
       </div>
@@ -82,6 +101,9 @@
 
 <script>
 export default {
+  data: () => ({
+    dialog: false,
+  }),
   methods: {
     //Fonction cancel: Retour à l'index//
     cancel() {

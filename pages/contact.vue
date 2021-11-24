@@ -1,3 +1,4 @@
+<!-- VERSION DU FORMULAIRE DE CONTACT FONCTIONNANT EN SSR-->
 <template>
   <div>
      <!--Ligne de séparation avec l'en-tête présente seulement sur les pages bleu clair-->

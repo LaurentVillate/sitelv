@@ -43,7 +43,7 @@
               {{ $t("about") }}
             </v-list-item-title>
           </v-list-item>
-          <v-list-item :to="localePath('contact')">
+          <v-list-item :to="localePath('contactstatic')">
             <v-icon small color="orange darken-3">mdi-email</v-icon>
             <v-list-item-title class="textorange pl-2">
               {{ $t("contact") }}
