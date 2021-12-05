@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/details/kampot", {data:[{}],fetch:{},mutations:void 0});

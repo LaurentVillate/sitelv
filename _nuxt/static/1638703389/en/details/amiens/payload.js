@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/details/amiens", {data:[{}],fetch:{},mutations:void 0});

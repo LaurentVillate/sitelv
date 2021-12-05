@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/details/siemreap", {data:[{}],fetch:{},mutations:void 0});

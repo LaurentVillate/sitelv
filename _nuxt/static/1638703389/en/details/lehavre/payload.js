@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/details/lehavre", {data:[{}],fetch:{},mutations:void 0});

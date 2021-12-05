@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/details/battambang", {data:[{}],fetch:{},mutations:void 0});
