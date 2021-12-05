@@ -57,7 +57,7 @@
           :date="$t('details.amiens.f.date')"
         ></Catalogimage>
         <Catalogimage
-          image="<img alt='Cathédrale Notre-Dame d'Amiens' src='catalog/amiens_Cathedrale.jpg' />"
+          image="<img alt='Cathédrale Notre-Dame d'Amiens' src='catalog/amiens_Cathedralenuit.jpg' />"
           :titre="$t('details.amiens.g.title')"
           :date="$t('details.amiens.g.date')"
         ></Catalogimage>
@@ -150,7 +150,7 @@
           :date="$t('details.dalat1.a.date')"
         ></Catalogimage>
         <Catalogimage
-          image="<img alt='Théâtre Hoa Binh de Dalat' src='catalog/dalat_Theatre.jpg' />"
+          image="<img alt='Théâtre Hoa Binh de Dalat' src='catalog/dalat_Theatrehoa.jpg' />"
           :titre="$t('details.dalat1.b.title')"
           :date="$t('details.dalat1.b.date')"
         ></Catalogimage>
