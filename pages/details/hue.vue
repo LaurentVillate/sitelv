@@ -14,7 +14,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='Maison et clôture à Hué' src='galerie/hue_Cloture.png' />" 
+        image="<img alt='Maison et clôture à Hué' src='galerie/hue_Cloturebrisee.png' />" 
         :titre="$t('details.hue.b.title')"
         :formatpapier="$t('details.hue.b.papersize')"
         :formatimage="$t('details.hue.b.imagesize')"

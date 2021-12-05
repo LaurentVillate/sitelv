@@ -68,13 +68,13 @@
                 :date="$t('details.hue.a.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img height='120' alt='Vue de Hué' src='galerie/hue_Cloture.png' />" 
+                image="<img height='120' alt='Vue de Hué' src='galerie/hue_Cloturebrisee.png' />" 
                 :titre="$t('details.hue.b.title')"
                 :date="$t('details.hue.b.date')"
                 ></Catalogimage>
                 <Catalogimage
                 image="<img width='120' alt='Terrain vague à Hué' src='galerie/hue_Autoportrait.png' />" 
-                 :titre="$t('details.autoportrait.a.title')"
+                :titre="$t('details.autoportrait.a.title')"
                 :date="$t('details.autoportrait.a.date')"
                 ></Catalogimage>
                 <Catalogimage
@@ -93,7 +93,7 @@
                 :date="$t('details.hue.f.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img alt='Palais de la reine-mère (Dien Tho) à Hué' src='catalog/hue_Etoiles.jpg' />" 
+                image="<img alt='Palais de la reine-mère (Dien Tho) à Hué' src='catalog/hue_Etoile.jpg' />" 
                 :titre="$t('details.hue.g.title')"
                 :date="$t('details.hue.g.date')"
                 ></Catalogimage>

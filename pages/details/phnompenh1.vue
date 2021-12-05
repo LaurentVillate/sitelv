@@ -23,7 +23,7 @@
         >
         </Imagedetails>
         <Imagedetails
-        image="<img alt='L'université royale de Phnom Penh (RUPP)' src='galerie/phnompenh_urpp.png' />" 
+        image="<img alt='L'université royale de Phnom Penh (RUPP)' src='galerie/phnompenh_Urppbatd.png' />" 
         :titre="$t('details.phnompenh1.c.title')"
         :formatpapier="$t('details.phnompenh1.c.papersize')"
         :formatimage="$t('details.phnompenh1.c.imagesize')"

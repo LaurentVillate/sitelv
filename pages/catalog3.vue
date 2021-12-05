@@ -78,7 +78,7 @@
                 :date="$t('details.phnompenh2.c.date')"
                 ></Catalogimage>
                 <Catalogimage
-                image="<img width='120' alt='L'université royale de Phnom Penh (RUPP)' src='galerie/phnompenh_Urpp.png' />" 
+                image="<img width='120' alt='L'université royale de Phnom Penh (RUPP)' src='galerie/phnompenh_Urppbatd.png' />" 
                 :titre="$t('details.phnompenh1.c.title')"
                 :date="$t('details.phnompenh1.c.date')"
                 ></Catalogimage>
