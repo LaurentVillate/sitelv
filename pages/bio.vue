@@ -82,9 +82,9 @@ export default {
         case "md":
           return 400;
         case "lg":
-          return 490;
+          return 500;
         case "xl":
-          return 490;
+          return 500;
       }
     },
   },

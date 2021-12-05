@@ -47,7 +47,7 @@
           :date="$t('details.amiens.d.date')"
         ></Catalogimage>
         <Catalogimage
-          image="<img alt='Gare d'Amiens' src='catalog/amiens_Gare.jpg' />"
+          image="<img alt='Gare d'Amiens' src='catalog/amiens_Placegare.jpg' />"
           :titre="$t('details.amiens.e.title')"
           :date="$t('details.amiens.e.date')"
         ></Catalogimage>
